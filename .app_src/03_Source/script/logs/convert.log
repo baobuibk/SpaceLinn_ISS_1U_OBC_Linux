@@ -1,0 +1,76 @@
+2025-07-28 12:31:06,020 - INFO - ================================================================================
+2025-07-28 12:31:06,020 - INFO - NEW CONVERSION RUN - 2025-07-28 12:31:06
+2025-07-28 12:31:06,021 - INFO - Input:  /home/spec_cam/CAOHIEU_DEV/ScriptFirmware/obc_indvtest_config_sample.json
+2025-07-28 12:31:06,021 - INFO - Output: beepc1_step.json
+2025-07-28 12:31:06,021 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 12:31:06,021 - INFO - Starting conversion from /home/spec_cam/CAOHIEU_DEV/ScriptFirmware/obc_indvtest_config_sample.json to beepc1_step.json
+2025-07-28 12:31:06,022 - INFO - Successfully loaded configuration from /home/spec_cam/CAOHIEU_DEV/ScriptFirmware/obc_indvtest_config_sample.json
+2025-07-28 12:31:06,023 - INFO - Processing INIT section...
+2025-07-28 12:31:06,023 - INFO - Added clear_profile step
+2025-07-28 12:31:06,024 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-28 12:31:06,024 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 12:31:06,024 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 12:31:06,025 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 12:31:06,025 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 12:31:06,026 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 12:31:06,026 - INFO - Added PDA profile
+2025-07-28 12:31:06,027 - INFO - Added camera profile
+2025-07-28 12:31:06,027 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 12:31:06,027 - INFO - Added 1 DLS sequences
+2025-07-28 12:31:06,028 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 12:31:06,028 - INFO - Added 4 camera sequences
+2025-07-28 12:31:06,031 - INFO - Successfully saved converted configuration to beepc1_step.json
+2025-07-28 12:31:06,031 - INFO - Saving DLS routine sequences to int_laser.json (int_laser)...
+2025-07-28 12:31:06,032 - INFO - Successfully saved DLS sequences to int_laser.json
+2025-07-28 12:31:06,033 - INFO - Saving CAM routine sequences to ext_laser.json (ext_laser)...
+2025-07-28 12:31:06,034 - INFO - Successfully saved external laser sequences to ext_laser.json
+2025-07-28 12:31:06,034 - INFO - Saving CIS parameters to camera.json (camera.json)...
+2025-07-28 12:31:06,035 - INFO - Successfully saved CIS parameters to camera.json
+2025-07-28 12:31:06,036 - INFO - Saving release/lockin times to release_lockin.json...
+2025-07-28 12:31:06,037 - INFO - Successfully saved release/lockin times to release_lockin.json
+2025-07-28 12:31:06,037 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 12:31:06,038 - INFO - INIT section: 10 steps
+2025-07-28 12:31:06,038 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-28 12:31:06,039 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 12:31:06,039 - INFO - Total warnings: 0
+2025-07-28 12:31:06,040 - INFO - Total errors: 0
+2025-07-28 12:31:06,040 - INFO - ============================================================
+2025-07-28 12:31:06,041 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-28 14:45:09,980 - INFO - ================================================================================
+2025-07-28 14:45:09,981 - INFO - NEW CONVERSION RUN - 2025-07-28 14:45:09
+2025-07-28 14:45:09,981 - INFO - Input:  /home/spec_cam/CAOHIEU_DEV/ScriptFirmware/obc_indvtest_config_sample.json
+2025-07-28 14:45:09,981 - INFO - Output: beepc1_step.json
+2025-07-28 14:45:09,982 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 14:45:09,982 - INFO - Starting conversion from /home/spec_cam/CAOHIEU_DEV/ScriptFirmware/obc_indvtest_config_sample.json to beepc1_step.json
+2025-07-28 14:45:09,983 - INFO - Successfully loaded configuration from /home/spec_cam/CAOHIEU_DEV/ScriptFirmware/obc_indvtest_config_sample.json
+2025-07-28 14:45:09,983 - INFO - Processing INIT section...
+2025-07-28 14:45:09,984 - INFO - Added clear_profile step
+2025-07-28 14:45:09,984 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-28 14:45:09,984 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 14:45:09,985 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 14:45:09,985 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 14:45:09,985 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 14:45:09,986 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 14:45:09,986 - INFO - Added PDA profile
+2025-07-28 14:45:09,987 - INFO - Added camera profile
+2025-07-28 14:45:09,987 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 14:45:09,987 - INFO - Added 1 DLS sequences
+2025-07-28 14:45:09,987 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 14:45:09,987 - INFO - Added 4 camera sequences
+2025-07-28 14:45:09,990 - INFO - Successfully saved converted configuration to beepc1_step.json
+2025-07-28 14:45:09,990 - INFO - Saving DLS routine sequences to int_laser.json (int_laser)...
+2025-07-28 14:45:09,991 - INFO - Successfully saved DLS sequences to int_laser.json
+2025-07-28 14:45:09,991 - INFO - Saving CAM routine sequences to ext_laser.json (ext_laser)...
+2025-07-28 14:45:09,993 - INFO - Successfully saved external laser sequences to ext_laser.json
+2025-07-28 14:45:09,993 - INFO - Saving CIS parameters to camera.json (camera.json)...
+2025-07-28 14:45:09,995 - INFO - Successfully saved CIS parameters to camera.json
+2025-07-28 14:45:09,995 - INFO - Saving release/lockin times to release_lockin.json...
+2025-07-28 14:45:09,996 - INFO - Successfully saved release/lockin times to release_lockin.json
+2025-07-28 14:45:09,997 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 14:45:09,997 - INFO - INIT section: 10 steps
+2025-07-28 14:45:09,997 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-28 14:45:09,997 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 14:45:09,997 - INFO - Total warnings: 0
+2025-07-28 14:45:09,998 - INFO - Total errors: 0
+2025-07-28 14:45:09,998 - INFO - ============================================================
+2025-07-28 14:45:09,998 - INFO - [SUCCESS] Conversion completed successfully with no issues!

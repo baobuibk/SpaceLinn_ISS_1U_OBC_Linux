@@ -1,0 +1,80 @@
+=========== REVISION NOTES ===========
+>>> This: Rev 3.5b
+
+--------------------------------------
+>>> 04/08/2025 20:00:00
+- Release final version for test
+--------------------------------------
+>>> 05/08/2025 20:00:00 [Rev 1.0]
+-> Sum: Fixed almost all major bugs
+- [Fw + Sw] Change file name: from [---]_data to [---]_i[position].dat/cdat
+- [Fw + Sw] Added "Run Limit Count"
+- [Fw + Sw] Added "Request CM4 for Script"
+- [Fw + Sw] Updated RTC from STM32 to CM4 at the every start of routine
+- [Fw] Added "Command cli: Start, stop, pause, resume, format_disk"
+- [Fw] Added "Command cli: obc_set cli_mode [0dis/1dmesg/2bscript/3all]"
+- [Sw] Added Background running functionality
+- [Sw] Changed control for Background-load-build-running
+- [Sw] Changed handler + bg_handler for new script and Background running
+- [Sw] Changed Slt.sh for SW Change
+- [Sw] Changed start_up.sh for Dmesg
+--------------------------------------
+>>> 06/08/2025 00:00:00
+-> Sum: Hotfix for running script, bug at time-point 23:00:00 -> 0:00:00 behaved wrong logic
+- [Sw] Note that Script.json should be used "now" for start-time, instead of exact time-point, lead to wrong logic time-point @ boot-up FRAM
+--------------------------------------
+>>> 06/08/2025 15:00:00 [Rev 2.0]
+-> Sum: Bug fixes
+- [Sw] Typing error @ start_up.sh
+- [Fw] Updated obc.log for CM4-dead signal, some actions...
+- [Fw] Bug @ RTC software was faster than expected
+- [Fw] New format for fw.bin name already...
+--------------------------------------
+>>> 08/08/2025 12:00:00 [Rev 3.0] -> [OBC firm-ver 1.2.1]
+-> Sum: Minor changes
+- [Sw] Added function for handler.py that run on boot, request RTC time from OBC.
+- [Fw] Wait 30s before DLS time points start
+--------------------------------------
+>>> 09/08/2025 12:00:00 [Rev 3.1] -> [OBC firm-ver 1.2.2]
+-> Sum: Minor changes - "Note that this change uncovered a GMT time conflict KR/GMT because SSH Command will handle this"
+- [Sw + Fw] Added command handler "Make Time Point Folder" for CM4 & OBC. 
+- [Sw] Changed time format for folder names; all collected data will now be stored in new time-point folders.
+- [Sw] Added revision patch information to the splash screen.
+- [Sw] Changed logic cleaning folder because of changing folder name format.
+- [Sw] Added new step to "background" -> create new time-point folder
+- [Fw] Changed logic: If "EXP-Error" -> try again after 1 hour instead of 1 day.
+--------------------------------------
+>>> 10/08/2025 17:00:00 [Rev 3.2] -> [OBC firm-ver 1.2.3]
+-> Sum: Bug fixes, minor changed
+- [Sw] Changed folder tree [./Data] to [./Data/Raw] | [./Data/Compress]
+- [Sw] Added script python RunOnBoot that compress [Zip] data @ previous day.
+- [Sw] Background script now added some commands to EXP.
+- [Sw] Added [note] -> Cronjob for script python that compressing folder
+- [Fw] Changed in firmware all EXP-Error will back to Init step.
+--------------------------------------
+>>> 14/08/2025 14:00:00 [Rev 3.3] -> [OBC firm-ver 1.2.3]
+-> Sum: Added more features
+- [Sw] Added to folder_clean function. If 80%, automatically delete files older than 2 days, keeping only the last 2 days and today.
+- [Sw] Fixed the logic for the CAM_Routine when 0 step.
+--------------------------------------
+>>> 20/08/2025 14:00:00 [Rev 3.4] -> [OBC firm-ver 1.2.3]
+-> Sum: Minor changed
+- [Sw] Removed hardcoded fixed range (e.g., TEC Vol [only > 4000 but error]).
+- [Sw] Build now succeeds even with warnings.
+- [Sw] Added app_setup.sh
+--------------------------------------
+>>> 25/08/2025 14:00:00 [Rev 3.5] -> [OBC firm-ver 1.2.4]
+-> Sum: Added features
+- [Sw + Fw] Now added auto power control CM4.
+- [Sw] Crontab change to 05:15:00.
+--------------------------------------
+>>> 27/08/2025 16:00:00 [Rev 3.5a] -> [OBC firm-ver 1.2.4a]
+- [Sw] Added CPU temperature logger script.
+- [Fw] Init step will set the Counter Request Shutdown to 0
+--------------------------------------
+>>> 28/08/2025 13:00:00 [Rev 3.5b] -> [OBC firm-ver 1.2.4b]
+- [Sw] Changed minor logic in handler.py
+- [Sw] Updated app_setup.sh
+- [Fw] Counter Request Shutdown is now binary only (0/1)
+- [Fw] Added function to store [Start-time] and [End-time] for OBC > CM4 wake-up timing
+- [!!] NOTE: UPDATE PASSWORD USING p_gen.py

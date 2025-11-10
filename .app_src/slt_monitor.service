@@ -1,0 +1,32 @@
+[Unit]
+Description=Start GPIO & handler monitor for %u
+After=network.target
+
+[Service]
+Type=oneshot
+User=%u
+ExecStart=%h/.app_src/01_RunOnBoot/start_up.sh
+WorkingDirectory=%h/.app_src/01_RunOnBoot
+StandardOutput=append:%h/.app_src/01_RunOnBoot/logs/systemd_stdout.log
+StandardError=append:%h/.app_src/01_RunOnBoot/logs/systemd_stderr.log
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+//------------------------------------------
+
+sudo nano /etc/systemd/system/slt_monitor.service
+
+/etc/systemd/system/slt_monitor@.service
+
+
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+sudo systemctl enable [user]@slt_monitor.service
+sudo systemctl start [user]@slt_monitor.service
+
+journalctl -u slt_monitor.service -n 50 --no-pager
+journalctl -u slt_monitor@spec_cam.service -n 50 --no-pager

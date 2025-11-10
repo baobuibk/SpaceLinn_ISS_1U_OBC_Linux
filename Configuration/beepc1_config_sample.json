@@ -1,0 +1,367 @@
+{
+    "system": {
+        "data": {
+            "folder": "/home/bee/data/",   
+            "start":"now",
+            "available": {
+                "start_time": "18:45:00",
+                "end_time": "19:15:00"
+            },
+            "run_limit_count": 0
+        },
+        "rtc_sync": {
+            "source": "obc_rtc",
+            "interval": "86400"
+        }
+    },
+    "temperature_control": {
+        "tec_devices": [
+            {
+                "index": "0",
+                "enable": "1",
+                "voltage": "1.0"
+            },
+            {
+                "index": "1",
+                "enable": "1",
+                "voltage": "1.0"
+            },
+            {
+                "index": "2",
+                "enable": "1",
+                "voltage": "1.0"
+            },
+            {
+                "index": "3",
+                "enable": "0",
+                "voltage": "1.0"
+            }
+        ],
+
+        "heater_devices": [
+            {
+                "index": "0",
+                "enable": "1",
+                "duty_cycle": "50"
+            },
+            {
+                "index": "1",
+                "enable": "1",
+                "duty_cycle": "50"
+            },
+            {
+                "index": "2",
+                "enable": "1",
+                "duty_cycle": "50"
+            },
+            {
+                "index": "3",
+                "enable": "0",
+                "duty_cycle": "50"
+            }
+        ],
+        "ntc_devices": [
+            {
+                "index": "0",
+                "label": "ntc_exp_pri",
+                "enable": "1"
+            },
+            {
+                "index": "1",
+                "label": "ntc_exp_sec",
+                "enable": "1"
+            },
+            {
+                "index": "2",
+                "label": "ambient",
+                "enable": "1"
+            },
+            {
+                "index": "3",
+                "label": "",
+                "enable": "1"
+            },
+            {
+                "index": "4",
+                "label": "",
+                "enable": "1"
+            },
+            {
+                "index": "5",
+                "label": "",
+                "enable": "1"
+            },
+            {
+                "index": "6",
+                "label": "",
+                "enable": "1"
+            },
+            {
+                "index": "7",
+                "label": "",
+                "enable": "0"
+            }
+        ],
+        "temp_profiles": [
+            {
+                "index": "0",
+                "label": "exp_temp_control",
+                "type": "feedback",
+                "interval": "1",
+                "temperatures": {
+                    "reference": "25.0",
+                    "ntc_primary": "0",
+                    "ntc_secondary": "1",
+                    "min_temp": "10.0", 
+                    "max_temp": "30.0",
+                    "auto_recover": "1"
+                },
+                "actuators": [
+                    {
+                        "type": "heater",
+                        "index": "2"
+                    },
+                    {
+                        "type": "heater",
+                        "index": "3"
+                    },
+                    {
+                        "type": "tec",
+                        "index": "0"
+                    },
+                    {
+                        "type": "tec",
+                        "index": "1"
+                    }
+                ]
+            },
+            {
+                "index": "1",
+                "label": "pd_cooling",
+                "type": "hard",
+                "interval": "5",
+                "temperatures": {
+                },
+                "actuators": [
+                    {
+                        "type": "tec",
+                        "index": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "dls_routine": {
+        "interval": "1800",
+        "lda_params": {
+            "max_current": "80"
+        },
+        "pda_params": {
+            "sampling_rate": "500000",
+            "pre_laser_period": "100",
+            "in_sample_period": "3800", 
+            "pos_laser_period": "100"
+        },
+        "sequences": [
+            {
+                "index": "0",
+                "ld_pd_id": 3,
+                "ld_current": 50
+            },
+            {
+                "index": "1",
+                "ld_pd_id": 9,
+                "ld_current": 50
+            },
+            {
+                "index": "2",
+                "ld_pd_id": "15",
+                "ld_current": 50
+            },
+            {
+                "index": "3",
+                "ld_pd_id": "21",
+                "ld_current": 50
+            },
+            {
+                "index": "4",
+                "ld_pd_id": "27",
+                "ld_current": 50
+            },
+            {
+                "index": "5",
+                "ld_pd_id": "33",
+                "ld_current": 50
+            },
+            {
+                "index": "6",
+                "ld_pd_id": "4",
+                "ld_current": 50
+            },
+            {
+                "index": "7",
+                "ld_pd_id": "10",
+                "ld_current": 50
+            },
+            {
+                "index": "8",
+                "ld_pd_id": "16",
+                "ld_current": 50
+            },
+            {
+                "index": "9",
+                "ld_pd_id": "22",
+                "ld_current": 50
+            },
+            {
+                "index": "10",
+                "ld_pd_id": "28",
+                "ld_current": 50
+            },
+            {
+                "index": "11",
+                "ld_pd_id": "34",
+                "ld_current": 50
+            },
+            {
+                "index": "12",
+                "ld_pd_id": "5",
+                "ld_current": 50
+            },
+            {
+                "index": "13",
+                "ld_pd_id": "11",
+                "ld_current": 50
+            },
+            {
+                "index": "14",
+                "ld_pd_id": "17",
+                "ld_current": 50
+            },
+            {
+                "index": "15",
+                "ld_pd_id": "23",
+                "ld_current": 50
+            },
+            {
+                "index": "16",
+                "ld_pd_id": "29",
+                "ld_current": 50
+            },
+            {
+                "index": "17",
+                "ld_pd_id": "35",
+                "ld_current": 50
+            },
+            {
+                "index": "18",
+                "ld_pd_id": "6",
+                "ld_current": 50
+            },
+            {
+                "index": "19",
+                "ld_pd_id": "12",
+                "ld_current": 50
+            },
+            {
+                "index": "20",
+                "ld_pd_id": "18",
+                "ld_current": 50
+            },
+            {
+                "index": "21",
+                "ld_pd_id": "24",
+                "ld_current": 50
+            },
+            {
+                "index": "22",
+                "ld_pd_id": "30",
+                "ld_current": 50
+            },
+            {
+                "index": "23",
+                "ld_pd_id": "36",
+                "ld_current": 50
+            }
+        ]
+    },
+    "cam_routine": {
+        "interval": "1800",
+        "lde_params": {
+            "max_current": "80"
+        },
+        "cis_params": {
+            "resolution": "Full",
+            "compress_enable": 0,
+            "exposure": "100",
+            "gain": "2"
+        },
+        "sequences": [
+            {
+                "index": "0",
+                "cis_id": "1",
+                "ld_id": "1",
+                "ld_current": 50
+            },
+            {
+                "index": "1",
+                "cis_id": "3",
+                "ld_id": "3",
+                "ld_current": 50
+            },
+            {
+                "index": "2",
+                "cis_id": "2",
+                "ld_id": "5",
+                "ld_current": 50
+            },
+            {
+                "index": "3",
+                "cis_id": "4",
+                "ld_id": "7",
+                "ld_current": 50
+            }
+        ]
+    },
+    "house_keeping": {
+        "interval": "60",
+        "report":[
+            {
+                "type":"obc_cm4_error",
+                "enable": "1"
+            },
+            {
+                "type":"obc_cm4_log",
+                "enable": "0"
+            },
+            {
+                "type":"obc_stm_error",
+                "enable": "1"
+            },
+            {
+                "type":"obc_stm_rtc",
+                "enable": "1"
+            },
+            {
+                "type":"exp_stm_error",
+                "enable": "1"
+            },
+            {
+                "type":"exp_ntc_temp",
+                "enable": "1"
+            },
+            {
+                "type":"exp_tec_stat",
+                "enable": "1"
+            },
+            {
+                "type":"exp_heater_stat",
+                "enable": "1"
+            },
+            {
+                "type":"exp_i2c_sensor",
+                "enable": "1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+Crontab -e
+// 00:00:30 will run
+30 0 * * * /home/spec_cam/.venv/bin/python /home/spec_cam/.app_src/01_RunOnBoot/auto_compress.py
+

@@ -1,0 +1,654 @@
+import json
+import argparse
+import logging
+import sys
+import os
+from datetime import datetime
+from typing import Dict, List, Any, Optional
+from pathlib import Path
+
+DEFAULT_INPUT_DIR = Path.home() / "Configuration"
+
+DEFAULT_OUTPUT_DIR = Path.home() / ".app_src/02_ConfigSystem"
+
+CONVERT_LOG_DIR_FILE = Path.home() / "Data/logs/convert.log"
+
+# Setup logging with proper encoding for Windows
+def setup_logging(verbose=False):
+    """Setup logging with proper encoding for cross-platform compatibility"""
+    level = logging.DEBUG if verbose else logging.INFO
+    
+    # Create formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    
+    # Setup console handler with UTF-8 encoding
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+    
+    # Setup file handler with UTF-8 encoding
+    file_handler = logging.FileHandler(CONVERT_LOG_DIR_FILE, encoding='utf-8')
+    file_handler.setFormatter(formatter)
+    
+    # Configure root logger
+    logger = logging.getLogger()
+    logger.setLevel(level)
+    logger.handlers.clear()  # Clear any existing handlers
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+    
+    return logger
+
+class ConfigValidator:
+    """Validator class for configuration parameters"""
+    
+    @staticmethod
+    def validate_rtc_source(source: str) -> str:
+        """Validate RTC source parameter"""
+        logger = logging.getLogger(__name__)
+        valid_sources = ["nanode_ntp", "obc_rtc"]
+        if source not in valid_sources:
+            logger.warning(f"Invalid RTC source '{source}'. Valid sources: {valid_sources}. Using default 'obc_rtc'")
+            return "obc_rtc"
+        return source
+    
+    @staticmethod
+    def validate_tec_voltage(voltage: float, index: int) -> int:
+        """Validate TEC voltage and convert to mV"""
+        logger = logging.getLogger(__name__)
+        voltage_mv = int(voltage * 1000)
+        if voltage_mv < 500 or voltage_mv > 2500:
+            logger.warning(f"TEC device {index}: voltage {voltage_mv}mV out of range (500-2500mV)")
+        return voltage_mv
+    
+    @staticmethod
+    def validate_heater_duty_cycle(duty_cycle: int, index: int) -> int:
+        """Validate heater duty cycle"""
+        logger = logging.getLogger(__name__)
+        if duty_cycle < 0 or duty_cycle > 100:
+            logger.warning(f"Heater device {index}: duty_cycle {duty_cycle}% out of range (0-100%)")
+        return duty_cycle
+    
+    @staticmethod
+    def validate_temperature_range(reference: float, min_temp: float, max_temp: float) -> bool:
+        """Validate temperature range within [min_temp, max_temp] and ensure all within [0.0°C, 40.0°C]"""
+        logger = logging.getLogger(__name__)
+
+        # Check if each value is within allowed physical range
+        for label, value in [('Reference', reference), ('Min', min_temp), ('Max', max_temp)]:
+            if not (0.0 <= value <= 40.0):
+                logger.warning(f"{label} temperature {value}°C is out of allowable range [0.0°C, 40.0°C]")
+                return False
+
+        # Check logical range consistency
+        if not (min_temp <= reference <= max_temp):
+            logger.warning(f"Reference temperature {reference}°C is not within configured range [{min_temp}°C, {max_temp}°C]")
+            return False
+
+        return True
+
+    
+    @staticmethod
+    def validate_laser_current(current: int, max_current: int, sequence_index: int) -> bool:
+        """Validate laser current against max current"""
+        logger = logging.getLogger(__name__)
+        if current > max_current:
+            logger.warning(f"Sequence {sequence_index}: laser current {current} exceeds max_current {max_current}")
+            return False
+        return True
+
+def build_builttostep(beepc1_path: str, 
+                      output_path: str, 
+                      int_laser_output_path: Optional[str] = None, # int_laser_output_path
+                      ext_laser_output_path: Optional[str] = None, # ext_laser.json
+                      camera_output_path: Optional[str] = None,    # camera.json
+                      release_lockin_output_path: Optional[str] = None # release_lockin.json
+                     ) -> Dict[str, Any]:
+    """
+    Convert beepc1 configuration to builttostep format
+    
+    Args:
+        beepc1_path: Path to input beepc1 configuration file
+        output_path: Path to output builttostep file
+        int_laser_output_path: Optional path to output int_laser.json file with DLS sequences
+        ext_laser_output_path: Optional path to output ext_laser.json file with external laser sequences
+        camera_output_path: Optional path to output camera.json with CIS parameters
+        release_lockin_output_path: Optional path to output release_lockin.json with start/end times
+        
+    Returns:
+        Dictionary containing conversion statistics
+    """
+    logger = logging.getLogger(__name__)
+    
+    # Add separator line to distinguish new run from previous logs
+    separator = "=" * 80
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    separator2 = "[" + "-" * 78 + "]"
+
+    logger.info(separator)
+    logger.info(f"NEW CONVERSION RUN - {current_time}")
+    logger.info(f"Input:  {beepc1_path}")
+    logger.info(f"Output: {output_path}")
+    logger.info(separator2)
+
+    
+    logger.info(f"Starting conversion from {beepc1_path} to {output_path}")
+    
+    # Load configuration
+    try:
+        with open(beepc1_path, "r") as f:
+            config = json.load(f)
+        logger.info(f"Successfully loaded configuration from {beepc1_path}")
+    except FileNotFoundError:
+        logger.error(f"Configuration file {beepc1_path} not found")
+        return None
+    except json.JSONDecodeError as e:
+        logger.error(f"Invalid JSON in {beepc1_path}: {e}")
+        return None
+
+    # Initialize result structure
+    result = {
+        "init": {"steps": []},
+        "dls_routine": {"steps": []},
+        "cam_routine": {"steps": []}
+    }
+    
+    # Statistics tracking
+    stats = {
+        "init_steps": 0,
+        "dls_steps": 0,
+        "cam_steps": 0,
+        "warnings": 0,
+        "errors": 0
+    }
+
+    # --- INIT SECTION ---
+    logger.info("Processing INIT section...")
+    
+    # set_system
+    sys = config.get("system", {})
+    if "data" in sys:
+        start = sys["data"].get("start", "now")
+        release = sys["data"].get("available", {}).get("start_time", "")
+        lockin = sys["data"].get("available", {}).get("end_time", "")
+
+        result["init"]["steps"].append({
+            "action": "clear_profile",
+            "parameters": {
+            }
+        })
+        stats["init_steps"] += 1
+        logger.info(f"Added clear_profile step")
+
+        # Retrieve intervals from routines
+        dls_interval = int(config.get("dls_routine", {}).get("interval", 3600))
+        cam_interval = int(config.get("cam_routine", {}).get("interval", 3600))
+
+        # Define valid range
+        MIN_INTERVAL = 300      # 5 minutes
+        MAX_INTERVAL = 86400    # 24 hours
+
+        # Validate and clamp DLS interval
+        if dls_interval < MIN_INTERVAL or dls_interval > MAX_INTERVAL:
+            logger.warning(f"dls_interval {dls_interval}s is out of range ({MIN_INTERVAL}–{MAX_INTERVAL}s). Clamping to valid range.")
+            dls_interval = max(MIN_INTERVAL, min(dls_interval, MAX_INTERVAL))
+            stats["warnings"] += 1
+
+        # Validate and clamp CAM interval
+        if cam_interval < MIN_INTERVAL or cam_interval > MAX_INTERVAL:
+            logger.warning(f"cam_interval {cam_interval}s is out of range ({MIN_INTERVAL}–{MAX_INTERVAL}s). Clamping to valid range.")
+            cam_interval = max(MIN_INTERVAL, min(cam_interval, MAX_INTERVAL))
+            stats["warnings"] += 1
+
+        # Append set_system step with both intervals included
+        result["init"]["steps"].append({
+            "action": "set_system",
+            "parameters": {
+                "start": start,
+                "release_time": release,
+                "lockin_time": lockin,
+                "dls_interval": dls_interval,
+                "cam_interval": cam_interval
+            }
+        })
+        stats["init_steps"] += 1
+        logger.info(f"Added set_system step with start={start}, dls_interval={dls_interval}s, cam_interval={cam_interval}s")
+
+    # set_rtc
+    if "rtc_sync" in sys:
+        rtc_source = ConfigValidator.validate_rtc_source(sys["rtc_sync"].get("source", "obc_rtc"))
+        rtc_params = sys["rtc_sync"].copy()
+        rtc_params["interval"] = int(sys["rtc_sync"].get("interval", 86400))
+        
+        result["init"]["steps"].append({
+            "action": "set_rtc",
+            "parameters": rtc_params
+        })
+        stats["init_steps"] += 1
+        logger.info(f"Added set_rtc step with source={rtc_source}")
+
+    # set_ntc_control
+    ntcs = config.get("temperature_control", {}).get("ntc_devices", [])
+    if ntcs:
+        params = {
+            f"enable_index_{d['index']}": int(d["enable"])
+            for d in ntcs
+        }
+        result["init"]["steps"].append({
+            "action": "set_ntc_control",
+            "parameters": params
+        })
+        stats["init_steps"] += 1
+        logger.info(f"Added set_ntc_control step for {len(ntcs)} NTC devices")
+
+    # Process TEC and Heater devices with validation
+    tec_devices = config.get("temperature_control", {}).get("tec_devices", [])
+    heater_devices = config.get("temperature_control", {}).get("heater_devices", [])
+    
+    # Find TEC devices used in hard temperature profiles (exclude from voltage uniformity check)
+    hard_profile_tecs = set()
+    profiles = config.get("temperature_control", {}).get("temp_profiles", [])
+    for prof in profiles:
+        if prof["type"] == "hard":
+            for actuator in prof.get("actuators", []):
+                if actuator["type"] == "tec":
+                    hard_profile_tecs.add(int(actuator["index"]))
+    
+    # Validate TEC voltages
+    enabled_tec_devices = [d for d in tec_devices if d["enable"] == "1"]
+    tec_voltages = []
+    tec_device_lookup = {}
+    
+    for d in enabled_tec_devices:
+        voltage = float(d["voltage"])
+        voltage_mv = ConfigValidator.validate_tec_voltage(voltage, d["index"])
+        if voltage_mv < 500 or voltage_mv > 2500:
+            stats["warnings"] += 1
+        tec_voltages.append(voltage_mv)
+        tec_device_lookup[int(d["index"])] = voltage
+    
+    # Check TEC voltage uniformity (excluding hard profile TECs)
+    regular_tec_voltages = [
+        int(float(d["voltage"]) * 1000) 
+        for d in enabled_tec_devices 
+        if int(d["index"]) not in hard_profile_tecs
+    ]
+    
+    logger.info(f"TEC devices in hard profiles (excluded from voltage uniformity check): {list(hard_profile_tecs)}")
+    
+    if len(set(regular_tec_voltages)) > 1:
+        logger.warning(f"Multiple TEC voltages found in regular devices: {regular_tec_voltages}")
+        stats["warnings"] += 1
+    
+    # Validate heater duty cycles
+    enabled_heater_devices = [d for d in heater_devices if d["enable"] == "1"]
+    heater_duties = []
+    
+    for d in enabled_heater_devices:
+        duty_cycle = int(d["duty_cycle"])
+        if not (0 <= duty_cycle <= 100):
+            stats["warnings"] += 1
+        ConfigValidator.validate_heater_duty_cycle(duty_cycle, d["index"])
+        heater_duties.append(duty_cycle)
+    
+    # Check heater duty cycle uniformity
+    if len(set(heater_duties)) > 1:
+        logger.warning(f"Multiple heater duty cycles found: {heater_duties}")
+        stats["warnings"] += 1
+
+    # Use first values for configuration
+    tec_vol = tec_voltages[0] if tec_voltages else 0
+    heater_duty = heater_duties[0] if heater_duties else 0
+
+    # Process temperature profiles
+    for prof in profiles:
+        if prof["type"] == "feedback":
+            t = prof.get("temperatures", {})
+            reference = float(t.get("reference", 0))
+            min_temp = float(t.get("min_temp", 0))
+            max_temp = float(t.get("max_temp", 0))
+            
+            # Validate temperature range
+            if not ConfigValidator.validate_temperature_range(reference, min_temp, max_temp):
+                stats["warnings"] += 1
+            
+            actuators = prof.get("actuators", [])
+            heaters = [a["index"] for a in actuators if a["type"] == "heater"]
+            tecs = [a["index"] for a in actuators if a["type"] == "tec"]
+            
+            result["init"]["steps"].append({
+                "action": "set_temp_profile",
+                "parameters": {
+                    "target_temp": int(reference * 10),
+                    "min_temp": int(min_temp * 10),
+                    "max_temp": int(max_temp * 10),
+                    "ntc_primary": int(t.get("ntc_primary", 0)),
+                    "ntc_secondary": int(t.get("ntc_secondary", 1)),
+                    "num_tec_actuator": len(tecs),
+                    "num_heater_actuator": len(heaters),
+                    "tec_vol": tec_vol,
+                    "tec_actuator_num": [int(i) for i in tecs],
+                    "heater_duty": heater_duty,
+                    "heater_actuator_num": [int(i) for i in heaters],
+                    "auto_recover": int(t.get("auto_recover", 0))
+                }
+            })
+            
+            result["init"]["steps"].append({
+                "action": "start_temp_profile",
+                "parameters": {}
+            })
+            stats["init_steps"] += 2
+            logger.info(f"Added feedback temperature profile: {prof['label']}")
+            
+        elif prof["type"] == "hard":
+            tecs = [int(a["index"]) for a in prof.get("actuators", []) if a["type"] == "tec"]
+            if tecs:
+                override_index = tecs[0]
+                override_vol = int(float(tec_device_lookup.get(override_index, 0)) * 1000)
+                
+                # Validate and clamp interval
+                interval = int(prof.get("interval", 5))
+                if interval < 0 or interval > 60:
+                    logger.warning(f"Hard profile '{prof.get('label', '')}': interval {interval}s out of range [0-60s], clamping.")
+                    interval = max(0, min(interval, 60))  # Clamp to 0–60
+                    stats["warnings"] += 1
+
+                result["init"]["steps"].append({
+                    "action": "set_override_tec_profile",
+                    "parameters": {
+                        "interval": interval,
+                        "tec_override_index": override_index,
+                        "tec_actuator_vol": override_vol
+                    }
+                })
+
+                
+                result["init"]["steps"].append({
+                    "action": "start_override_tec_profile",
+                    "parameters": {}
+                })
+                stats["init_steps"] += 2
+                logger.info(f"Added hard temperature profile: {prof['label']}")
+
+    # set_pda_profile
+    pda = config.get("dls_routine", {}).get("pda_params", {})
+    if pda:
+        try:
+            # Parse and validate values
+            sampling_rate = int(pda.get("sampling_rate", 0))
+            in_sample_period = int(pda.get("in_sample_period", 0))
+            pre_laser_period = int(pda.get("pre_laser_period", 0))
+            pos_laser_period = int(pda.get("pos_laser_period", 0))
+
+            # All must be > 0
+            if not all(v > 0 for v in [sampling_rate, in_sample_period, pre_laser_period, pos_laser_period]):
+                logger.error("PDA profile parameters must all be greater than 0")
+                stats["errors"] += 1
+            # Sampling rate constraint
+            elif not (100000 <= sampling_rate <= 1000000):
+                logger.error(f"Invalid sampling_rate {sampling_rate} Hz. Must be in [100000, 800000]")
+                stats["errors"] += 1
+            # 16-bit limit for periods
+            elif any(p >= 65536 for p in [in_sample_period, pre_laser_period, pos_laser_period]):
+                logger.error("PDA periods must be < 65536 (16-bit limit)")
+                stats["errors"] += 1
+            # Total duration constraint
+            elif (in_sample_period + pre_laser_period + pos_laser_period) <= (2000000 / sampling_rate):
+                logger.error("Sum of PDA periods exceeds allowed window (must < 2000000 / sampling_rate)")
+                stats["errors"] += 1
+            else:
+                result["init"]["steps"].append({
+                    "action": "set_pda_profile",
+                    "parameters": {
+                        "sampling_rate": sampling_rate,
+                        "pre_laser_period": pre_laser_period,
+                        "in_sample_period": in_sample_period,
+                        "pos_laser_period": pos_laser_period
+                    }
+                })
+                stats["init_steps"] += 1
+                logger.info("Added PDA profile")
+
+        except (ValueError, TypeError) as e:
+            logger.warning(f"Invalid PDA parameter format: {e}")
+            stats["warnings"] += 1
+
+
+    # set_camera_profile
+    cam = config.get("cam_routine", {}).get("cis_params", {})
+    if cam:
+        result["init"]["steps"].append({
+            "action": "set_camera_profile",
+            "parameters": {
+                "resolution": cam.get("resolution", "Full"),
+                "compress_enable": int(cam.get("compress_enable", 0)),
+                "exposure": int(cam.get("exposure", 0)),
+                "gain": int(cam.get("gain", 0))
+            }
+        })
+        stats["init_steps"] += 1
+        logger.info("Added camera profile")
+
+    # --- DLS ROUTINE SECTION ---
+    logger.info("Processing DLS_ROUTINE section...")
+    
+    dls = config.get("dls_routine", {})
+    result["dls_routine"]["steps"].append({
+        "action": "set_dls_interval",
+        "parameters": {
+            "interval": int(dls.get("interval", 3600))
+        }
+    })
+    stats["dls_steps"] += 1
+    
+    # Get max current for validation
+    max_current = int(dls.get("lda_params", {}).get("max_current", 100))
+    
+    # Process DLS sequences
+    for seq in dls.get("sequences", []):
+        current = seq["ld_current"]
+        if not ConfigValidator.validate_laser_current(current, max_current, seq["index"]):
+            stats["warnings"] += 1
+        
+        # Convert ld_id to bitmask if it's a list
+        ld_id = seq["ld_id"]
+        if isinstance(ld_id, list):
+            bitmask = 0
+            for val in ld_id:
+                bitmask |= 1 << (int(val) - 1)   # bit v? tr� (id-1)
+        else:
+            bitmask = int(ld_id)
+
+        result["dls_routine"]["steps"].extend([
+            {"action": "set_laser_intensity", "parameters": {"intensity": current}},
+            {"action": "set_position", "parameters": {"position": bitmask}},
+            {"action": "start_sample_cycle", "parameters": {}},
+            {"action": "obc_get_sample", "parameters": {}}
+        ])
+
+        stats["dls_steps"] += 4
+    
+    logger.info(f"Added {len(dls.get('sequences', []))} DLS sequences")
+
+    # --- CAM ROUTINE SECTION ---
+    logger.info("Processing CAM_ROUTINE section...")
+    
+    cam_routine = config.get("cam_routine", {})
+    cam_interval = int(cam_routine.get("interval", 3600))
+    
+    result["cam_routine"]["steps"].append({
+        "action": "set_camera_interval",
+        "parameters": {
+            "interval": cam_interval
+        }
+    })
+    stats["cam_steps"] += 1
+    
+    # Get max current for validation
+    cam_max_current = int(cam_routine.get("lde_params", {}).get("max_current", 100))
+    
+    # Process camera sequences
+    for seq in cam_routine.get("sequences", []):
+        current = seq["ld_current"]
+        if not ConfigValidator.validate_laser_current(current, cam_max_current, seq["index"]):
+            stats["warnings"] += 1
+        
+        result["cam_routine"]["steps"].extend([
+            {"action": "set_ext_laser_intensity", "parameters": {"intensity": current}},
+            {"action": "turn_on_ext_laser", "parameters": {"position": int(seq["ld_id"])}},
+            {"action": "set_camera_position", "parameters": {"cis_id": int(seq["cis_id"])}},
+            {"action": "take_img_with_timeout", "parameters": {}},
+            {"action": "delay", "parameters": {"duration": 3000}},
+            {"action": "turn_off_ext_laser", "parameters": {}},
+        ])
+        stats["cam_steps"] += 6
+    
+    logger.info(f"Added {len(cam_routine.get('sequences', []))} camera sequences")
+
+    # --- Save result ---
+    try:
+        with open(output_path, "w") as f:
+            json.dump(result, f, indent=4)
+        logger.info(f"Successfully saved converted configuration to {output_path}")
+    except Exception as e:
+        logger.error(f"Failed to save output file: {e}")
+        return None
+#----------------------------------------------------------------------------------------------------
+    # --- NEW: Save dls_routine sequences to int_laser.json if requested and no errors so far ---
+    if int_laser_output_path and stats["errors"] == 0:
+        logger.info(f"Saving DLS routine sequences to {int_laser_output_path} (int_laser)...")
+        try:
+            dls_sequences_only = config.get("dls_routine", {}).get("sequences", [])
+            with open(int_laser_output_path, "w") as f:
+                json.dump(dls_sequences_only, f, indent=4)
+            logger.info(f"Successfully saved DLS sequences to {int_laser_output_path}")
+        except Exception as e:
+            logger.error(f"Failed to save int_laser output file '{int_laser_output_path}': {e}")
+            stats["errors"] += 1 # Increment error count for saving laser output
+
+    # --- NEW: Save cam_routine sequences (ext_laser) to ext_laser.json ---
+    if ext_laser_output_path and stats["errors"] == 0:
+        logger.info(f"Saving CAM routine sequences to {ext_laser_output_path} (ext_laser)...")
+        try:
+            # Lấy các trường "index", "ld_id", "ld_current" từ mỗi sequence
+            ext_laser_sequences = []
+            for seq in config.get("cam_routine", {}).get("sequences", []):
+                ext_laser_sequences.append({
+                    "index": seq.get("index"),
+                    "ld_id": seq.get("ld_id"),
+                    "ld_current": seq.get("ld_current")
+                })
+
+            with open(ext_laser_output_path, "w") as f:
+                json.dump(ext_laser_sequences, f, indent=4)
+            logger.info(f"Successfully saved external laser sequences to {ext_laser_output_path}")
+        except Exception as e:
+            logger.error(f"Failed to save ext_laser output file '{ext_laser_output_path}': {e}")
+            stats["errors"] += 1
+
+    # --- NEW: Save cis_params to camera.json ---
+    if camera_output_path and stats["errors"] == 0:
+        logger.info(f"Saving CIS parameters to {camera_output_path} (camera.json)...")
+        try:
+            cis_params_data = config.get("cam_routine", {}).get("cis_params", {})
+            with open(camera_output_path, "w") as f:
+                json.dump(cis_params_data, f, indent=4)
+            logger.info(f"Successfully saved CIS parameters to {camera_output_path}")
+        except Exception as e:
+            logger.error(f"Failed to save camera output file '{camera_output_path}': {e}")
+            stats["errors"] += 1
+
+    # --- NEW: Save start_time/end_time to release_lockin.json ---
+    if release_lockin_output_path and stats["errors"] == 0:
+        logger.info(f"Saving release/lockin times to {release_lockin_output_path}...")
+        try:
+            available_times = config.get("system", {}).get("data", {}).get("available", {})
+            release_lockin_data = {
+                "release_time": available_times.get("start_time", ""),
+                "lockin_time": available_times.get("end_time", "")
+            }
+            with open(release_lockin_output_path, "w") as f:
+                json.dump(release_lockin_data, f, indent=4)
+            logger.info(f"Successfully saved release/lockin times to {release_lockin_output_path}")
+        except Exception as e:
+            logger.error(f"Failed to save release_lockin output file '{release_lockin_output_path}': {e}")
+            stats["errors"] += 1
+
+    # --- Final statistics ---
+    logger.info("=== CONVERSION SUMMARY ===")
+    logger.info(f"INIT section: {stats['init_steps']} steps")
+    logger.info(f"DLS_ROUTINE section: {stats['dls_steps']} steps")
+    logger.info(f"CAM_ROUTINE section: {stats['cam_steps']} steps")
+    logger.info(f"Total warnings: {stats['warnings']}")
+    logger.info(f"Total errors: {stats['errors']}")
+    logger.info(separator[:60])  # Shorter separator for summary end
+    
+    if stats['warnings'] == 0 and stats['errors'] == 0:
+        logger.info("[SUCCESS] Conversion completed successfully with no issues!")
+    elif stats['errors'] == 0:
+        logger.info("[WARNING] Conversion completed with warnings. Please review the log.")
+    else:
+        logger.error("[ERROR] Conversion completed with errors. Please fix the issues.")
+    
+    return stats
+
+def main():
+
+    """Main function with command line argument parsing"""
+    parser = argparse.ArgumentParser(description="Convert beepc1 configuration to builttostep format")
+    parser.add_argument(
+        "-f", "--file", 
+        default="obc_indvtest_config_sample.json",
+        help="Input beepc1 configuration file (default: beepc1_config_sample.json)"
+    )
+
+    parser.add_argument(
+        "-d", "--output-dir",
+        type=Path,
+        default=DEFAULT_OUTPUT_DIR,
+        help=f"Directory to store all output files (default: {DEFAULT_OUTPUT_DIR})"
+    )
+
+    parser.add_argument(
+        "-v", "--verbose",
+        action="store_true",
+        help="Enable verbose logging"
+    )
+
+    args = parser.parse_args()
+    
+    # Setup logging
+    logger = setup_logging(args.verbose)
+    
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Compose all output file paths
+    output_main = args.output_dir / "beepc1_step.json"
+    output_int_laser = args.output_dir / "int_laser.json"
+    output_ext_laser = args.output_dir / "ext_laser.json"
+    output_camera = args.output_dir / "camera.json"
+    output_release = args.output_dir / "release_lockin.json"
+
+    # Run conversion
+    stats = build_builttostep(
+        args.file,
+        str(output_main),
+        str(output_int_laser),
+        str(output_ext_laser),
+        str(output_camera),
+        str(output_release)
+    )
+    if stats is None:
+        sys.exit(1)
+    
+    # Exit with appropriate code
+    if stats['errors'] > 0:
+        sys.exit(1)
+    elif stats['warnings'] > 0:
+        sys.exit(2)
+    else:
+        sys.exit(0)
+
+if __name__ == "__main__":
+    main()

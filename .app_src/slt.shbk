@@ -1,0 +1,111 @@
+#!/bin/bash
+
+USER_NAME=$(whoami)
+PYTHON_PATH="/home/$USER_NAME/.venv/bin/python"
+SCRIPT_DIR="/home/$USER_NAME/.app_src/03_Source"
+
+HANDLER_PATH="$SCRIPT_DIR/handler"
+CONTROL_PATH="$SCRIPT_DIR/control"
+FOTA_PATH="$SCRIPT_DIR/fota"
+
+if [ ! -x "$PYTHON_PATH" ]; then
+    echo "[!] <ERROR> Could not find Python at $PYTHON_PATH"
+    exit 1
+fi
+
+# Function to check if handler.py is running
+is_monitoring_running() {
+    pgrep -f "handler.py" > /dev/null
+}
+
+while true; do
+    clear
+    echo "    ___ __ _______ ____  ___  _____"
+    echo "   / __/ //_  __(_) __ \\/ _ )/ ___/"
+    echo "  _\\ \\/ /__/ / _ / /_/ / _  / /__"
+    echo " /___/____/_/ (_)\\____/____/\\___/"
+    echo "=============== MENU ==============="
+
+    if is_monitoring_running; then
+        echo "[WARNING] Monitoring is running. Please stop it before doing anything else."
+        echo "1. [Stop] Monitoring"
+        echo "2. [Disabled] SLT - Main Control Menu"
+        echo "3. [Disabled] SLT - Firmware Update"
+    else
+        echo "1. [Start] Monitoring"
+        echo "2. SLT - Main Control Menu"
+        echo "3. SLT - Firmware Update"
+    fi
+    echo "---------"
+    echo "4. Quit"
+    echo "===================================="
+    read -p "Select an option (1-4): " choice
+
+    case $choice in
+        1)
+            if is_monitoring_running; then
+                echo -n "[INFO] Stopping monitoring (handler.py)... "
+                sudo pkill -f "FOTA.py"
+                sudo pkill -f "control.py"     
+                sudo pkill -f "handler.py"
+                echo "Done."
+            else
+                echo "[INFO] Starting monitoring (handler.py) in background..."
+                "$PYTHON_PATH" "$HANDLER_PATH/handler.py" &>/dev/null &
+                echo "[INFO] Monitoring started."
+            fi
+            read -p "Press Enter to return to menu..."
+            ;;
+        2)
+            if is_monitoring_running; then
+                echo "[ERROR] Monitoring is active. Stop it before running control.py."
+                read -p "Press Enter to return to menu..."
+            else
+                echo "[INFO] Stopping all Python processes..."
+                sudo pkill -f "FOTA.py"
+                sudo pkill -f "control.py"     
+                sudo pkill -f "handler.py"
+                echo "[INFO] Running control.py..."
+                "$PYTHON_PATH" "$CONTROL_PATH/control.py"
+                read -p "Press Enter to return to menu..."
+            fi
+            ;;
+        3)
+            if is_monitoring_running; then
+                echo "[ERROR] Monitoring is active. Stop it before running ota.py."
+                read -p "Press Enter to return to menu..."
+            else
+                echo "[INFO] Stopping all Python processes..."
+                sudo pkill -f "FOTA.py"
+                sudo pkill -f "control.py"     
+                sudo pkill -f "handler.py"
+                echo "[INFO] Running ota.py..."
+                "$PYTHON_PATH" "$FOTA_PATH/FOTA.py"
+                read -p "Press Enter to return to menu..."
+            fi
+            ;;
+        4)
+            if is_monitoring_running; then
+                echo "[INFO] Monitoring is running. Exiting..."
+                echo "[OK] Quit."
+                exit 0
+            else
+                echo "[WARNING] Monitoring is not running!"
+                read -p "Are you sure you want to quit without starting monitoring? (y/N): " confirm_quit
+                case "$confirm_quit" in
+                    [yY][eE][sS]|[yY])
+                        echo "[OK] Quit."
+                        exit 0
+                        ;;
+                    *)
+                        echo "[INFO] Returning to menu..."
+                        ;;
+                esac
+            fi
+            ;;
+        *)
+            echo "[ERROR] Invalid selection. Please choose between 1 and 4."
+            read -p "Press Enter to return to menu..."
+            ;;
+    esac
+done

@@ -1,0 +1,1015 @@
+2025-07-28 16:03:11,951 - INFO - ================================================================================
+2025-07-28 16:03:11,951 - INFO - NEW CONVERSION RUN - 2025-07-28 16:03:11
+2025-07-28 16:03:11,952 - INFO - Input:  obc_indvtest_config_sample.json
+2025-07-28 16:03:11,952 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:03:11,952 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 16:03:11,952 - INFO - Starting conversion from obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:03:11,953 - ERROR - Configuration file obc_indvtest_config_sample.json not found
+2025-07-28 16:05:27,886 - INFO - ================================================================================
+2025-07-28 16:05:27,886 - INFO - NEW CONVERSION RUN - 2025-07-28 16:05:27
+2025-07-28 16:05:27,886 - INFO - Input:  /home/spec_cam/Configuration/
+2025-07-28 16:05:27,887 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:05:27,887 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 16:05:27,887 - INFO - Starting conversion from /home/spec_cam/Configuration/ to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:09:23,426 - INFO - ================================================================================
+2025-07-28 16:09:23,426 - INFO - NEW CONVERSION RUN - 2025-07-28 16:09:23
+2025-07-28 16:09:23,428 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:09:23,428 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:09:23,429 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 16:09:23,429 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:09:23,430 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:09:23,431 - INFO - Processing INIT section...
+2025-07-28 16:09:23,432 - INFO - Added clear_profile step
+2025-07-28 16:09:23,432 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-28 16:09:23,433 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 16:09:23,434 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 16:09:23,435 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 16:09:23,436 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 16:09:23,436 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 16:09:23,436 - INFO - Added PDA profile
+2025-07-28 16:09:23,437 - INFO - Added camera profile
+2025-07-28 16:09:23,437 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 16:09:23,437 - INFO - Added 1 DLS sequences
+2025-07-28 16:09:23,437 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 16:09:23,438 - INFO - Added 4 camera sequences
+2025-07-28 16:09:23,440 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:09:23,441 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-28 16:09:23,442 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-28 16:09:23,442 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-28 16:09:23,443 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-28 16:09:23,443 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-28 16:09:23,444 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-28 16:09:23,445 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-28 16:09:23,446 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-28 16:09:23,446 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 16:09:23,446 - INFO - INIT section: 10 steps
+2025-07-28 16:09:23,447 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-28 16:09:23,447 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 16:09:23,447 - INFO - Total warnings: 0
+2025-07-28 16:09:23,448 - INFO - Total errors: 0
+2025-07-28 16:09:23,448 - INFO - ============================================================
+2025-07-28 16:09:23,448 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-28 16:14:09,889 - INFO - ================================================================================
+2025-07-28 16:14:09,890 - INFO - NEW CONVERSION RUN - 2025-07-28 16:14:09
+2025-07-28 16:14:09,890 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:14:09,891 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:14:09,892 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 16:14:09,892 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:14:09,893 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:14:09,893 - INFO - Processing INIT section...
+2025-07-28 16:14:09,893 - INFO - Added clear_profile step
+2025-07-28 16:14:09,894 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-28 16:14:09,894 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 16:14:09,894 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 16:14:09,894 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 16:14:09,895 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 16:14:09,895 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 16:14:09,895 - INFO - Added PDA profile
+2025-07-28 16:14:09,896 - INFO - Added camera profile
+2025-07-28 16:14:09,896 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 16:14:09,896 - INFO - Added 1 DLS sequences
+2025-07-28 16:14:09,896 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 16:14:09,897 - INFO - Added 4 camera sequences
+2025-07-28 16:14:09,899 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:14:09,899 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-28 16:14:09,903 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-28 16:14:09,904 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-28 16:14:09,905 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-28 16:14:09,905 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-28 16:14:09,905 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-28 16:14:09,906 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-28 16:14:09,906 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-28 16:14:09,907 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 16:14:09,907 - INFO - INIT section: 10 steps
+2025-07-28 16:14:09,907 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-28 16:14:09,907 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 16:14:09,908 - INFO - Total warnings: 0
+2025-07-28 16:14:09,908 - INFO - Total errors: 0
+2025-07-28 16:14:09,908 - INFO - ============================================================
+2025-07-28 16:14:09,908 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-28 16:26:53,382 - INFO - ================================================================================
+2025-07-28 16:26:53,383 - INFO - NEW CONVERSION RUN - 2025-07-28 16:26:53
+2025-07-28 16:26:53,383 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:26:53,384 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:26:53,384 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 16:26:53,384 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:26:53,385 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:26:53,385 - INFO - Processing INIT section...
+2025-07-28 16:26:53,385 - INFO - Added clear_profile step
+2025-07-28 16:26:53,386 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-28 16:26:53,386 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 16:26:53,386 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 16:26:53,387 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 16:26:53,387 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 16:26:53,388 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 16:26:53,388 - INFO - Added PDA profile
+2025-07-28 16:26:53,388 - INFO - Added camera profile
+2025-07-28 16:26:53,388 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 16:26:53,389 - INFO - Added 1 DLS sequences
+2025-07-28 16:26:53,389 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 16:26:53,389 - INFO - Added 4 camera sequences
+2025-07-28 16:26:53,391 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:26:53,392 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-28 16:26:53,393 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-28 16:26:53,393 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-28 16:26:53,394 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-28 16:26:53,394 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-28 16:26:53,395 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-28 16:26:53,395 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-28 16:26:53,396 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-28 16:26:53,396 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 16:26:53,396 - INFO - INIT section: 10 steps
+2025-07-28 16:26:53,396 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-28 16:26:53,397 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 16:26:53,397 - INFO - Total warnings: 0
+2025-07-28 16:26:53,397 - INFO - Total errors: 0
+2025-07-28 16:26:53,397 - INFO - ============================================================
+2025-07-28 16:26:53,397 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-28 16:28:05,610 - INFO - ================================================================================
+2025-07-28 16:28:05,610 - INFO - NEW CONVERSION RUN - 2025-07-28 16:28:05
+2025-07-28 16:28:05,610 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:28:05,611 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:28:05,611 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 16:28:05,611 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:28:05,612 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:28:05,612 - INFO - Processing INIT section...
+2025-07-28 16:28:05,612 - INFO - Added clear_profile step
+2025-07-28 16:28:05,612 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-28 16:28:05,613 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 16:28:05,613 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 16:28:05,613 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 16:28:05,613 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 16:28:05,614 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 16:28:05,614 - INFO - Added PDA profile
+2025-07-28 16:28:05,614 - INFO - Added camera profile
+2025-07-28 16:28:05,614 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 16:28:05,614 - INFO - Added 1 DLS sequences
+2025-07-28 16:28:05,614 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 16:28:05,615 - INFO - Added 4 camera sequences
+2025-07-28 16:28:05,617 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:28:05,617 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-28 16:28:05,618 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-28 16:28:05,618 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-28 16:28:05,619 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-28 16:28:05,619 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-28 16:28:05,620 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-28 16:28:05,620 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-28 16:28:05,621 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-28 16:28:05,621 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 16:28:05,621 - INFO - INIT section: 10 steps
+2025-07-28 16:28:05,622 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-28 16:28:05,622 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 16:28:05,622 - INFO - Total warnings: 0
+2025-07-28 16:28:05,622 - INFO - Total errors: 0
+2025-07-28 16:28:05,622 - INFO - ============================================================
+2025-07-28 16:28:05,622 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-28 16:31:07,615 - INFO - ================================================================================
+2025-07-28 16:31:07,615 - INFO - NEW CONVERSION RUN - 2025-07-28 16:31:07
+2025-07-28 16:31:07,616 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:31:07,616 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:31:07,616 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 16:31:07,616 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:31:07,617 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-28 16:31:07,617 - INFO - Processing INIT section...
+2025-07-28 16:31:07,618 - INFO - Added clear_profile step
+2025-07-28 16:31:07,618 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-28 16:31:07,618 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 16:31:07,619 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 16:31:07,619 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 16:31:07,619 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 16:31:07,620 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 16:31:07,620 - INFO - Added PDA profile
+2025-07-28 16:31:07,620 - INFO - Added camera profile
+2025-07-28 16:31:07,620 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 16:31:07,621 - INFO - Added 1 DLS sequences
+2025-07-28 16:31:07,621 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 16:31:07,621 - INFO - Added 4 camera sequences
+2025-07-28 16:31:07,623 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 16:31:07,624 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-28 16:31:07,625 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-28 16:31:07,625 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-28 16:31:07,626 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-28 16:31:07,626 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-28 16:31:07,627 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-28 16:31:07,627 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-28 16:31:07,628 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-28 16:31:07,628 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 16:31:07,628 - INFO - INIT section: 10 steps
+2025-07-28 16:31:07,629 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-28 16:31:07,629 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 16:31:07,629 - INFO - Total warnings: 0
+2025-07-28 16:31:07,629 - INFO - Total errors: 0
+2025-07-28 16:31:07,629 - INFO - ============================================================
+2025-07-28 16:31:07,629 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-28 18:30:54,449 - INFO - ================================================================================
+2025-07-28 18:30:54,450 - INFO - NEW CONVERSION RUN - 2025-07-28 18:30:54
+2025-07-28 18:30:54,451 - INFO - Input:  /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-28 18:30:54,451 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 18:30:54,451 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 18:30:54,451 - INFO - Starting conversion from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 18:30:54,452 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-28 18:30:54,452 - INFO - Processing INIT section...
+2025-07-28 18:30:54,452 - INFO - Added clear_profile step
+2025-07-28 18:30:54,453 - INFO - Added set_system step with start=18:35:00, dls_interval=600s, cam_interval=600s
+2025-07-28 18:30:54,453 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 18:30:54,453 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 18:30:54,453 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 18:30:54,454 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 18:30:54,454 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 18:30:54,454 - INFO - Added PDA profile
+2025-07-28 18:30:54,454 - INFO - Added camera profile
+2025-07-28 18:30:54,454 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 18:30:54,455 - INFO - Added 24 DLS sequences
+2025-07-28 18:30:54,455 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 18:30:54,456 - INFO - Added 4 camera sequences
+2025-07-28 18:30:54,460 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 18:30:54,460 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-28 18:30:54,461 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-28 18:30:54,462 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-28 18:30:54,462 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-28 18:30:54,463 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-28 18:30:54,463 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-28 18:30:54,464 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-28 18:30:54,464 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-28 18:30:54,465 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 18:30:54,465 - INFO - INIT section: 10 steps
+2025-07-28 18:30:54,465 - INFO - DLS_ROUTINE section: 97 steps
+2025-07-28 18:30:54,465 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 18:30:54,465 - INFO - Total warnings: 0
+2025-07-28 18:30:54,466 - INFO - Total errors: 0
+2025-07-28 18:30:54,466 - INFO - ============================================================
+2025-07-28 18:30:54,466 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-28 18:51:28,493 - INFO - ================================================================================
+2025-07-28 18:51:28,493 - INFO - NEW CONVERSION RUN - 2025-07-28 18:51:28
+2025-07-28 18:51:28,493 - INFO - Input:  /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-28 18:51:28,494 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 18:51:28,494 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 18:51:28,494 - INFO - Starting conversion from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 18:51:28,495 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-28 18:51:28,495 - INFO - Processing INIT section...
+2025-07-28 18:51:28,496 - INFO - Added clear_profile step
+2025-07-28 18:51:28,496 - INFO - Added set_system step with start=18:35:00, dls_interval=600s, cam_interval=600s
+2025-07-28 18:51:28,496 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-28 18:51:28,496 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-28 18:51:28,496 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-28 18:51:28,497 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-28 18:51:28,497 - INFO - Added hard temperature profile: pd_cooling
+2025-07-28 18:51:28,497 - INFO - Added PDA profile
+2025-07-28 18:51:28,498 - INFO - Added camera profile
+2025-07-28 18:51:28,498 - INFO - Processing DLS_ROUTINE section...
+2025-07-28 18:51:28,498 - INFO - Added 24 DLS sequences
+2025-07-28 18:51:28,499 - INFO - Processing CAM_ROUTINE section...
+2025-07-28 18:51:28,499 - INFO - Added 4 camera sequences
+2025-07-28 18:51:28,503 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-28 18:51:28,504 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-28 18:51:28,505 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-28 18:51:28,505 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-28 18:51:28,506 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-28 18:51:28,506 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-28 18:51:28,507 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-28 18:51:28,508 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-28 18:51:28,508 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-28 18:51:28,509 - INFO - === CONVERSION SUMMARY ===
+2025-07-28 18:51:28,509 - INFO - INIT section: 10 steps
+2025-07-28 18:51:28,509 - INFO - DLS_ROUTINE section: 97 steps
+2025-07-28 18:51:28,509 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-28 18:51:28,509 - INFO - Total warnings: 0
+2025-07-28 18:51:28,509 - INFO - Total errors: 0
+2025-07-28 18:51:28,510 - INFO - ============================================================
+2025-07-28 18:51:28,510 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-29 10:42:01,968 - INFO - ================================================================================
+2025-07-29 10:42:01,969 - INFO - NEW CONVERSION RUN - 2025-07-29 10:42:01
+2025-07-29 10:42:01,969 - INFO - Input:  /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-29 10:42:01,969 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 10:42:01,970 - INFO - [------------------------------------------------------------------------------]
+2025-07-29 10:42:01,970 - INFO - Starting conversion from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 10:42:01,971 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-29 10:42:01,971 - INFO - Processing INIT section...
+2025-07-29 10:42:01,971 - INFO - Added clear_profile step
+2025-07-29 10:42:01,971 - INFO - Added set_system step with start=10:45:00, dls_interval=1800s, cam_interval=1800s
+2025-07-29 10:42:01,972 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-29 10:42:01,972 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-29 10:42:01,972 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-29 10:42:01,972 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-29 10:42:01,972 - INFO - Added hard temperature profile: pd_cooling
+2025-07-29 10:42:01,973 - INFO - Added PDA profile
+2025-07-29 10:42:01,973 - INFO - Added camera profile
+2025-07-29 10:42:01,973 - INFO - Processing DLS_ROUTINE section...
+2025-07-29 10:42:01,973 - INFO - Added 24 DLS sequences
+2025-07-29 10:42:01,973 - INFO - Processing CAM_ROUTINE section...
+2025-07-29 10:42:01,974 - INFO - Added 4 camera sequences
+2025-07-29 10:42:01,978 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 10:42:01,978 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-29 10:42:01,979 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-29 10:42:01,979 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-29 10:42:01,980 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-29 10:42:01,980 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-29 10:42:01,980 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-29 10:42:01,981 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-29 10:42:01,981 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-29 10:42:01,981 - INFO - === CONVERSION SUMMARY ===
+2025-07-29 10:42:01,981 - INFO - INIT section: 10 steps
+2025-07-29 10:42:01,982 - INFO - DLS_ROUTINE section: 97 steps
+2025-07-29 10:42:01,982 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-29 10:42:01,982 - INFO - Total warnings: 0
+2025-07-29 10:42:01,982 - INFO - Total errors: 0
+2025-07-29 10:42:01,982 - INFO - ============================================================
+2025-07-29 10:42:01,982 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-29 15:48:00,877 - INFO - ================================================================================
+2025-07-29 15:48:00,878 - INFO - NEW CONVERSION RUN - 2025-07-29 15:48:00
+2025-07-29 15:48:00,878 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-29 15:48:00,878 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 15:48:00,878 - INFO - [------------------------------------------------------------------------------]
+2025-07-29 15:48:00,879 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 15:48:00,880 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-29 15:48:00,880 - INFO - Processing INIT section...
+2025-07-29 15:48:00,880 - INFO - Added clear_profile step
+2025-07-29 15:48:00,881 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-29 15:48:00,881 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-29 15:48:00,881 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-29 15:48:00,881 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-29 15:48:00,882 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-29 15:48:00,882 - INFO - Added hard temperature profile: pd_cooling
+2025-07-29 15:48:00,882 - INFO - Added PDA profile
+2025-07-29 15:48:00,882 - INFO - Added camera profile
+2025-07-29 15:48:00,882 - INFO - Processing DLS_ROUTINE section...
+2025-07-29 15:48:00,883 - INFO - Added 1 DLS sequences
+2025-07-29 15:48:00,883 - INFO - Processing CAM_ROUTINE section...
+2025-07-29 15:48:00,883 - INFO - Added 4 camera sequences
+2025-07-29 15:48:00,885 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 15:48:00,886 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-29 15:48:00,886 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-29 15:48:00,887 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-29 15:48:00,887 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-29 15:48:00,887 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-29 15:48:00,888 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-29 15:48:00,888 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-29 15:48:00,889 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-29 15:48:00,889 - INFO - === CONVERSION SUMMARY ===
+2025-07-29 15:48:00,889 - INFO - INIT section: 10 steps
+2025-07-29 15:48:00,889 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-29 15:48:00,889 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-29 15:48:00,890 - INFO - Total warnings: 0
+2025-07-29 15:48:00,890 - INFO - Total errors: 0
+2025-07-29 15:48:00,890 - INFO - ============================================================
+2025-07-29 15:48:00,890 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-29 15:53:59,614 - INFO - ================================================================================
+2025-07-29 15:53:59,615 - INFO - NEW CONVERSION RUN - 2025-07-29 15:53:59
+2025-07-29 15:53:59,615 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-29 15:53:59,615 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 15:53:59,616 - INFO - [------------------------------------------------------------------------------]
+2025-07-29 15:53:59,616 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 15:53:59,616 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-29 15:53:59,617 - INFO - Processing INIT section...
+2025-07-29 15:53:59,617 - INFO - Added clear_profile step
+2025-07-29 15:53:59,617 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-29 15:53:59,617 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-29 15:53:59,617 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-29 15:53:59,618 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-29 15:53:59,618 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-29 15:53:59,618 - INFO - Added hard temperature profile: pd_cooling
+2025-07-29 15:53:59,618 - INFO - Added PDA profile
+2025-07-29 15:53:59,619 - INFO - Added camera profile
+2025-07-29 15:53:59,619 - INFO - Processing DLS_ROUTINE section...
+2025-07-29 15:53:59,619 - INFO - Added 1 DLS sequences
+2025-07-29 15:53:59,619 - INFO - Processing CAM_ROUTINE section...
+2025-07-29 15:53:59,619 - INFO - Added 4 camera sequences
+2025-07-29 15:53:59,621 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 15:53:59,622 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-29 15:53:59,622 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-29 15:53:59,623 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-29 15:53:59,623 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-29 15:53:59,624 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-29 15:53:59,624 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-29 15:53:59,624 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-29 15:53:59,625 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-29 15:53:59,625 - INFO - === CONVERSION SUMMARY ===
+2025-07-29 15:53:59,625 - INFO - INIT section: 10 steps
+2025-07-29 15:53:59,625 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-29 15:53:59,626 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-29 15:53:59,626 - INFO - Total warnings: 0
+2025-07-29 15:53:59,626 - INFO - Total errors: 0
+2025-07-29 15:53:59,626 - INFO - ============================================================
+2025-07-29 15:53:59,626 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-29 19:37:02,790 - INFO - ================================================================================
+2025-07-29 19:37:02,790 - INFO - NEW CONVERSION RUN - 2025-07-29 19:37:02
+2025-07-29 19:37:02,791 - INFO - Input:  /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-29 19:37:02,791 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 19:37:02,791 - INFO - [------------------------------------------------------------------------------]
+2025-07-29 19:37:02,791 - INFO - Starting conversion from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 19:37:02,792 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-29 19:37:02,792 - INFO - Processing INIT section...
+2025-07-29 19:37:02,793 - INFO - Added clear_profile step
+2025-07-29 19:37:02,793 - INFO - Added set_system step with start=10:45:00, dls_interval=1800s, cam_interval=1800s
+2025-07-29 19:37:02,793 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-29 19:37:02,793 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-29 19:37:02,793 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-29 19:37:02,793 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-29 19:37:02,794 - INFO - Added hard temperature profile: pd_cooling
+2025-07-29 19:37:02,794 - INFO - Added PDA profile
+2025-07-29 19:37:02,794 - INFO - Added camera profile
+2025-07-29 19:37:02,794 - INFO - Processing DLS_ROUTINE section...
+2025-07-29 19:37:02,794 - INFO - Added 24 DLS sequences
+2025-07-29 19:37:02,795 - INFO - Processing CAM_ROUTINE section...
+2025-07-29 19:37:02,795 - INFO - Added 4 camera sequences
+2025-07-29 19:37:02,799 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 19:37:02,799 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-29 19:37:02,800 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-29 19:37:02,800 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-29 19:37:02,801 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-29 19:37:02,801 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-29 19:37:02,801 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-29 19:37:02,802 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-29 19:37:02,802 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-29 19:37:02,802 - INFO - === CONVERSION SUMMARY ===
+2025-07-29 19:37:02,802 - INFO - INIT section: 10 steps
+2025-07-29 19:37:02,803 - INFO - DLS_ROUTINE section: 97 steps
+2025-07-29 19:37:02,803 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-29 19:37:02,803 - INFO - Total warnings: 0
+2025-07-29 19:37:02,803 - INFO - Total errors: 0
+2025-07-29 19:37:02,803 - INFO - ============================================================
+2025-07-29 19:37:02,803 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-29 19:52:30,091 - INFO - ================================================================================
+2025-07-29 19:52:30,091 - INFO - NEW CONVERSION RUN - 2025-07-29 19:52:30
+2025-07-29 19:52:30,091 - INFO - Input:  /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-29 19:52:30,091 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 19:52:30,092 - INFO - [------------------------------------------------------------------------------]
+2025-07-29 19:52:30,092 - INFO - Starting conversion from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 19:52:30,092 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-29 19:52:30,093 - INFO - Processing INIT section...
+2025-07-29 19:52:30,093 - INFO - Added clear_profile step
+2025-07-29 19:52:30,093 - INFO - Added set_system step with start=10:45:00, dls_interval=1800s, cam_interval=1800s
+2025-07-29 19:52:30,093 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-29 19:52:30,093 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-29 19:52:30,093 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-29 19:52:30,094 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-29 19:52:30,094 - INFO - Added hard temperature profile: pd_cooling
+2025-07-29 19:52:30,094 - INFO - Added PDA profile
+2025-07-29 19:52:30,094 - INFO - Added camera profile
+2025-07-29 19:52:30,094 - INFO - Processing DLS_ROUTINE section...
+2025-07-29 19:52:30,095 - INFO - Added 24 DLS sequences
+2025-07-29 19:52:30,095 - INFO - Processing CAM_ROUTINE section...
+2025-07-29 19:52:30,095 - INFO - Added 4 camera sequences
+2025-07-29 19:52:30,099 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-29 19:52:30,099 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-29 19:52:30,100 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-29 19:52:30,100 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-29 19:52:30,101 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-29 19:52:30,101 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-29 19:52:30,102 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-29 19:52:30,102 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-29 19:52:30,102 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-29 19:52:30,103 - INFO - === CONVERSION SUMMARY ===
+2025-07-29 19:52:30,103 - INFO - INIT section: 10 steps
+2025-07-29 19:52:30,103 - INFO - DLS_ROUTINE section: 97 steps
+2025-07-29 19:52:30,103 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-29 19:52:30,103 - INFO - Total warnings: 0
+2025-07-29 19:52:30,103 - INFO - Total errors: 0
+2025-07-29 19:52:30,103 - INFO - ============================================================
+2025-07-29 19:52:30,104 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-30 06:19:35,973 - INFO - ================================================================================
+2025-07-30 06:19:35,974 - INFO - NEW CONVERSION RUN - 2025-07-30 06:19:35
+2025-07-30 06:19:35,974 - INFO - Input:  /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-30 06:19:35,974 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 06:19:35,974 - INFO - [------------------------------------------------------------------------------]
+2025-07-30 06:19:35,975 - INFO - Starting conversion from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 06:19:35,976 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-30 06:19:35,976 - INFO - Processing INIT section...
+2025-07-30 06:19:35,977 - INFO - Added clear_profile step
+2025-07-30 06:19:35,977 - INFO - Added set_system step with start=10:45:00, dls_interval=1800s, cam_interval=1800s
+2025-07-30 06:19:35,977 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-30 06:19:35,977 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-30 06:19:35,977 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-30 06:19:35,978 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-30 06:19:35,978 - INFO - Added hard temperature profile: pd_cooling
+2025-07-30 06:19:35,978 - INFO - Added PDA profile
+2025-07-30 06:19:35,978 - INFO - Added camera profile
+2025-07-30 06:19:35,978 - INFO - Processing DLS_ROUTINE section...
+2025-07-30 06:19:35,979 - INFO - Added 24 DLS sequences
+2025-07-30 06:19:35,979 - INFO - Processing CAM_ROUTINE section...
+2025-07-30 06:19:35,979 - INFO - Added 4 camera sequences
+2025-07-30 06:19:35,983 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 06:19:35,983 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-30 06:19:35,985 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-30 06:19:35,985 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-30 06:19:35,986 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-30 06:19:35,986 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-30 06:19:35,986 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-30 06:19:35,986 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-30 06:19:35,987 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-30 06:19:35,987 - INFO - === CONVERSION SUMMARY ===
+2025-07-30 06:19:35,987 - INFO - INIT section: 10 steps
+2025-07-30 06:19:35,987 - INFO - DLS_ROUTINE section: 97 steps
+2025-07-30 06:19:35,988 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-30 06:19:35,988 - INFO - Total warnings: 0
+2025-07-30 06:19:35,988 - INFO - Total errors: 0
+2025-07-30 06:19:35,988 - INFO - ============================================================
+2025-07-30 06:19:35,988 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-30 06:21:59,826 - INFO - ================================================================================
+2025-07-30 06:21:59,826 - INFO - NEW CONVERSION RUN - 2025-07-30 06:21:59
+2025-07-30 06:21:59,826 - INFO - Input:  /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-30 06:21:59,826 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 06:21:59,826 - INFO - [------------------------------------------------------------------------------]
+2025-07-30 06:21:59,827 - INFO - Starting conversion from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 06:21:59,828 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/beepc1_config_sample - Copy.json
+2025-07-30 06:21:59,828 - INFO - Processing INIT section...
+2025-07-30 06:21:59,828 - INFO - Added clear_profile step
+2025-07-30 06:21:59,828 - INFO - Added set_system step with start=now, dls_interval=1800s, cam_interval=1800s
+2025-07-30 06:21:59,829 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-30 06:21:59,829 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-30 06:21:59,829 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-30 06:21:59,829 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-30 06:21:59,829 - INFO - Added hard temperature profile: pd_cooling
+2025-07-30 06:21:59,830 - INFO - Added PDA profile
+2025-07-30 06:21:59,830 - INFO - Added camera profile
+2025-07-30 06:21:59,830 - INFO - Processing DLS_ROUTINE section...
+2025-07-30 06:21:59,830 - INFO - Added 24 DLS sequences
+2025-07-30 06:21:59,830 - INFO - Processing CAM_ROUTINE section...
+2025-07-30 06:21:59,831 - INFO - Added 4 camera sequences
+2025-07-30 06:21:59,835 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 06:21:59,835 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-30 06:21:59,836 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-30 06:21:59,836 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-30 06:21:59,837 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-30 06:21:59,837 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-30 06:21:59,838 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-30 06:21:59,838 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-30 06:21:59,839 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-30 06:21:59,839 - INFO - === CONVERSION SUMMARY ===
+2025-07-30 06:21:59,839 - INFO - INIT section: 10 steps
+2025-07-30 06:21:59,839 - INFO - DLS_ROUTINE section: 97 steps
+2025-07-30 06:21:59,839 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-30 06:21:59,839 - INFO - Total warnings: 0
+2025-07-30 06:21:59,840 - INFO - Total errors: 0
+2025-07-30 06:21:59,840 - INFO - ============================================================
+2025-07-30 06:21:59,840 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-30 14:03:32,799 - INFO - ================================================================================
+2025-07-30 14:03:32,800 - INFO - NEW CONVERSION RUN - 2025-07-30 14:03:32
+2025-07-30 14:03:32,800 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-30 14:03:32,800 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:03:32,800 - INFO - [------------------------------------------------------------------------------]
+2025-07-30 14:03:32,800 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:03:32,801 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-30 14:03:32,801 - INFO - Processing INIT section...
+2025-07-30 14:03:32,801 - INFO - Added clear_profile step
+2025-07-30 14:03:32,801 - INFO - Added set_system step with start=now, dls_interval=600s, cam_interval=600s
+2025-07-30 14:03:32,802 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-30 14:03:32,802 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-30 14:03:32,802 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-30 14:03:32,802 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-30 14:03:32,802 - INFO - Added hard temperature profile: pd_cooling
+2025-07-30 14:03:32,803 - INFO - Added PDA profile
+2025-07-30 14:03:32,803 - INFO - Added camera profile
+2025-07-30 14:03:32,803 - INFO - Processing DLS_ROUTINE section...
+2025-07-30 14:03:32,803 - INFO - Added 1 DLS sequences
+2025-07-30 14:03:32,803 - INFO - Processing CAM_ROUTINE section...
+2025-07-30 14:03:32,803 - INFO - Added 4 camera sequences
+2025-07-30 14:03:32,806 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:03:32,806 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-30 14:03:32,807 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-30 14:03:32,807 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-30 14:03:32,807 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-30 14:03:32,808 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-30 14:03:32,808 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-30 14:03:32,808 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-30 14:03:32,809 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-30 14:03:32,809 - INFO - === CONVERSION SUMMARY ===
+2025-07-30 14:03:32,809 - INFO - INIT section: 10 steps
+2025-07-30 14:03:32,809 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-30 14:03:32,810 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-30 14:03:32,810 - INFO - Total warnings: 0
+2025-07-30 14:03:32,810 - INFO - Total errors: 0
+2025-07-30 14:03:32,810 - INFO - ============================================================
+2025-07-30 14:03:32,810 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-30 14:05:49,992 - INFO - ================================================================================
+2025-07-30 14:05:49,992 - INFO - NEW CONVERSION RUN - 2025-07-30 14:05:49
+2025-07-30 14:05:49,993 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-30 14:05:49,993 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:05:49,993 - INFO - [------------------------------------------------------------------------------]
+2025-07-30 14:05:49,993 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:05:49,993 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-30 14:05:49,994 - INFO - Processing INIT section...
+2025-07-30 14:05:49,994 - INFO - Added clear_profile step
+2025-07-30 14:05:49,994 - INFO - Added set_system step with start=now, dls_interval=43200s, cam_interval=43200s
+2025-07-30 14:05:49,994 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-30 14:05:49,994 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-30 14:05:49,994 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-30 14:05:49,995 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-30 14:05:49,995 - INFO - Added hard temperature profile: pd_cooling
+2025-07-30 14:05:49,995 - INFO - Added PDA profile
+2025-07-30 14:05:49,995 - INFO - Added camera profile
+2025-07-30 14:05:49,995 - INFO - Processing DLS_ROUTINE section...
+2025-07-30 14:05:49,996 - INFO - Added 1 DLS sequences
+2025-07-30 14:05:49,996 - INFO - Processing CAM_ROUTINE section...
+2025-07-30 14:05:49,996 - INFO - Added 4 camera sequences
+2025-07-30 14:05:49,998 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:05:49,998 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-30 14:05:49,999 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-30 14:05:49,999 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-30 14:05:50,000 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-30 14:05:50,000 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-30 14:05:50,001 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-30 14:05:50,001 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-30 14:05:50,001 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-30 14:05:50,002 - INFO - === CONVERSION SUMMARY ===
+2025-07-30 14:05:50,002 - INFO - INIT section: 10 steps
+2025-07-30 14:05:50,002 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-30 14:05:50,002 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-30 14:05:50,002 - INFO - Total warnings: 0
+2025-07-30 14:05:50,002 - INFO - Total errors: 0
+2025-07-30 14:05:50,003 - INFO - ============================================================
+2025-07-30 14:05:50,003 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-07-30 14:47:57,673 - INFO - ================================================================================
+2025-07-30 14:47:57,673 - INFO - NEW CONVERSION RUN - 2025-07-30 14:47:57
+2025-07-30 14:47:57,673 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-30 14:47:57,673 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:47:57,674 - INFO - [------------------------------------------------------------------------------]
+2025-07-30 14:47:57,674 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:47:57,674 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-07-30 14:47:57,674 - INFO - Processing INIT section...
+2025-07-30 14:47:57,675 - INFO - Added clear_profile step
+2025-07-30 14:47:57,675 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-07-30 14:47:57,675 - INFO - Added set_rtc step with source=obc_rtc
+2025-07-30 14:47:57,675 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-07-30 14:47:57,675 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-07-30 14:47:57,676 - INFO - Added feedback temperature profile: exp_temp_control
+2025-07-30 14:47:57,676 - INFO - Added hard temperature profile: pd_cooling
+2025-07-30 14:47:57,676 - INFO - Added PDA profile
+2025-07-30 14:47:57,676 - INFO - Added camera profile
+2025-07-30 14:47:57,676 - INFO - Processing DLS_ROUTINE section...
+2025-07-30 14:47:57,676 - INFO - Added 1 DLS sequences
+2025-07-30 14:47:57,677 - INFO - Processing CAM_ROUTINE section...
+2025-07-30 14:47:57,677 - INFO - Added 4 camera sequences
+2025-07-30 14:47:57,679 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-07-30 14:47:57,679 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-07-30 14:47:57,679 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-07-30 14:47:57,680 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-07-30 14:47:57,680 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-07-30 14:47:57,680 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-07-30 14:47:57,681 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-07-30 14:47:57,681 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-07-30 14:47:57,682 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-07-30 14:47:57,682 - INFO - === CONVERSION SUMMARY ===
+2025-07-30 14:47:57,682 - INFO - INIT section: 10 steps
+2025-07-30 14:47:57,682 - INFO - DLS_ROUTINE section: 5 steps
+2025-07-30 14:47:57,682 - INFO - CAM_ROUTINE section: 25 steps
+2025-07-30 14:47:57,683 - INFO - Total warnings: 0
+2025-07-30 14:47:57,683 - INFO - Total errors: 0
+2025-07-30 14:47:57,683 - INFO - ============================================================
+2025-07-30 14:47:57,683 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-01 13:57:31,752 - INFO - ================================================================================
+2025-08-01 13:57:31,753 - INFO - NEW CONVERSION RUN - 2025-08-01 13:57:31
+2025-08-01 13:57:31,753 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-01 13:57:31,753 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-01 13:57:31,753 - INFO - [------------------------------------------------------------------------------]
+2025-08-01 13:57:31,754 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-01 13:57:31,754 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-01 13:57:31,754 - INFO - Processing INIT section...
+2025-08-01 13:57:31,754 - INFO - Added clear_profile step
+2025-08-01 13:57:31,755 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-01 13:57:31,755 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-01 13:57:31,755 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-01 13:57:31,755 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-01 13:57:31,755 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-01 13:57:31,756 - INFO - Added hard temperature profile: pd_cooling
+2025-08-01 13:57:31,756 - INFO - Added PDA profile
+2025-08-01 13:57:31,756 - INFO - Added camera profile
+2025-08-01 13:57:31,756 - INFO - Processing DLS_ROUTINE section...
+2025-08-01 13:57:31,756 - INFO - Added 1 DLS sequences
+2025-08-01 13:57:31,756 - INFO - Processing CAM_ROUTINE section...
+2025-08-01 13:57:31,757 - INFO - Added 4 camera sequences
+2025-08-01 13:57:31,759 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-01 13:57:31,759 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-01 13:57:31,760 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-01 13:57:31,760 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-01 13:57:31,760 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-01 13:57:31,761 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-01 13:57:31,761 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-01 13:57:31,761 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-01 13:57:31,762 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-01 13:57:31,762 - INFO - === CONVERSION SUMMARY ===
+2025-08-01 13:57:31,762 - INFO - INIT section: 10 steps
+2025-08-01 13:57:31,762 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-01 13:57:31,763 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-01 13:57:31,763 - INFO - Total warnings: 0
+2025-08-01 13:57:31,763 - INFO - Total errors: 0
+2025-08-01 13:57:31,763 - INFO - ============================================================
+2025-08-01 13:57:31,763 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-04 11:01:46,571 - INFO - ================================================================================
+2025-08-04 11:01:46,572 - INFO - NEW CONVERSION RUN - 2025-08-04 11:01:46
+2025-08-04 11:01:46,572 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-04 11:01:46,572 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-04 11:01:46,572 - INFO - [------------------------------------------------------------------------------]
+2025-08-04 11:01:46,572 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-04 11:01:46,574 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-04 11:01:46,574 - INFO - Processing INIT section...
+2025-08-04 11:01:46,574 - INFO - Added clear_profile step
+2025-08-04 11:01:46,575 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-04 11:01:46,575 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-04 11:01:46,575 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-04 11:01:46,575 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-04 11:01:46,576 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-04 11:01:46,576 - INFO - Added hard temperature profile: pd_cooling
+2025-08-04 11:01:46,576 - INFO - Added PDA profile
+2025-08-04 11:01:46,576 - INFO - Added camera profile
+2025-08-04 11:01:46,576 - INFO - Processing DLS_ROUTINE section...
+2025-08-04 11:01:46,576 - INFO - Added 1 DLS sequences
+2025-08-04 11:01:46,577 - INFO - Processing CAM_ROUTINE section...
+2025-08-04 11:01:46,577 - INFO - Added 4 camera sequences
+2025-08-04 11:01:46,579 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-04 11:01:46,580 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-04 11:01:46,581 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-04 11:01:46,581 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-04 11:01:46,582 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-04 11:01:46,582 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-04 11:01:46,583 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-04 11:01:46,583 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-04 11:01:46,584 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-04 11:01:46,584 - INFO - === CONVERSION SUMMARY ===
+2025-08-04 11:01:46,584 - INFO - INIT section: 10 steps
+2025-08-04 11:01:46,585 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-04 11:01:46,585 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-04 11:01:46,585 - INFO - Total warnings: 0
+2025-08-04 11:01:46,585 - INFO - Total errors: 0
+2025-08-04 11:01:46,585 - INFO - ============================================================
+2025-08-04 11:01:46,585 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-05 15:21:14,877 - INFO - ================================================================================
+2025-08-05 15:21:14,878 - INFO - NEW CONVERSION RUN - 2025-08-05 15:21:14
+2025-08-05 15:21:14,879 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:21:14,879 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:21:14,879 - INFO - [------------------------------------------------------------------------------]
+2025-08-05 15:21:14,879 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:21:14,881 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:21:14,881 - INFO - Processing INIT section...
+2025-08-05 15:21:14,882 - INFO - Added clear_profile step
+2025-08-05 15:21:14,882 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-05 15:21:14,882 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-05 15:21:14,882 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-05 15:21:14,883 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-05 15:21:14,883 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-05 15:21:14,883 - INFO - Added hard temperature profile: pd_cooling
+2025-08-05 15:21:14,884 - INFO - Added PDA profile
+2025-08-05 15:21:14,884 - INFO - Added camera profile
+2025-08-05 15:21:14,884 - INFO - Processing DLS_ROUTINE section...
+2025-08-05 15:21:14,884 - INFO - Added 1 DLS sequences
+2025-08-05 15:21:14,885 - INFO - Processing CAM_ROUTINE section...
+2025-08-05 15:21:14,885 - INFO - Added 4 camera sequences
+2025-08-05 15:21:14,887 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:21:14,888 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-05 15:21:14,889 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-05 15:21:14,889 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-05 15:21:14,890 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-05 15:21:14,890 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-05 15:21:14,891 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-05 15:21:14,892 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-05 15:21:14,893 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-05 15:21:14,893 - INFO - Saving background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json...
+2025-08-05 15:21:14,895 - INFO - Successfully saved background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json
+2025-08-05 15:21:14,895 - INFO - === CONVERSION SUMMARY ===
+2025-08-05 15:21:14,896 - INFO - INIT section: 10 steps
+2025-08-05 15:21:14,896 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-05 15:21:14,896 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-05 15:21:14,896 - INFO - Total warnings: 0
+2025-08-05 15:21:14,896 - INFO - Total errors: 0
+2025-08-05 15:21:14,896 - INFO - ============================================================
+2025-08-05 15:21:14,897 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-05 15:25:29,913 - INFO - ================================================================================
+2025-08-05 15:25:29,913 - INFO - NEW CONVERSION RUN - 2025-08-05 15:25:29
+2025-08-05 15:25:29,914 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:25:29,914 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:25:29,915 - INFO - [------------------------------------------------------------------------------]
+2025-08-05 15:25:29,915 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:25:29,917 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:25:29,917 - INFO - Processing INIT section...
+2025-08-05 15:25:29,917 - INFO - Added clear_profile step
+2025-08-05 15:25:29,917 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-05 15:25:29,918 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-05 15:25:29,918 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-05 15:25:29,918 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-05 15:25:29,919 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-05 15:25:29,919 - INFO - Added hard temperature profile: pd_cooling
+2025-08-05 15:25:29,919 - INFO - Added PDA profile
+2025-08-05 15:25:29,919 - INFO - Added camera profile
+2025-08-05 15:25:29,919 - INFO - Processing DLS_ROUTINE section...
+2025-08-05 15:25:29,920 - INFO - Added 1 DLS sequences
+2025-08-05 15:25:29,920 - INFO - Processing CAM_ROUTINE section...
+2025-08-05 15:25:29,920 - INFO - Added 4 camera sequences
+2025-08-05 15:25:29,922 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:25:29,923 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-05 15:25:29,923 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-05 15:25:29,924 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-05 15:25:29,925 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-05 15:25:29,925 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-05 15:25:29,926 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-05 15:25:29,926 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-05 15:25:29,927 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-05 15:25:29,927 - INFO - Saving background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json...
+2025-08-05 15:25:29,929 - INFO - Successfully saved background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json
+2025-08-05 15:25:29,929 - INFO - === CONVERSION SUMMARY ===
+2025-08-05 15:25:29,930 - INFO - INIT section: 10 steps
+2025-08-05 15:25:29,930 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-05 15:25:29,930 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-05 15:25:29,930 - INFO - Total warnings: 0
+2025-08-05 15:25:29,930 - INFO - Total errors: 0
+2025-08-05 15:25:29,931 - INFO - ============================================================
+2025-08-05 15:25:29,931 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-05 15:32:25,317 - INFO - ================================================================================
+2025-08-05 15:32:25,318 - INFO - NEW CONVERSION RUN - 2025-08-05 15:32:25
+2025-08-05 15:32:25,318 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:32:25,318 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:32:25,318 - INFO - [------------------------------------------------------------------------------]
+2025-08-05 15:32:25,318 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:32:25,320 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:32:25,320 - INFO - Processing INIT section...
+2025-08-05 15:32:25,320 - INFO - Added clear_profile step
+2025-08-05 15:32:25,321 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-05 15:32:25,321 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-05 15:32:25,321 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-05 15:32:25,321 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-05 15:32:25,322 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-05 15:32:25,322 - INFO - Added hard temperature profile: pd_cooling
+2025-08-05 15:32:25,322 - INFO - Added PDA profile
+2025-08-05 15:32:25,323 - INFO - Added camera profile
+2025-08-05 15:32:25,323 - INFO - Processing DLS_ROUTINE section...
+2025-08-05 15:32:25,323 - INFO - Added 1 DLS sequences
+2025-08-05 15:32:25,323 - INFO - Processing CAM_ROUTINE section...
+2025-08-05 15:32:25,323 - INFO - Added 4 camera sequences
+2025-08-05 15:32:25,326 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:32:25,326 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-05 15:32:25,327 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-05 15:32:25,327 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-05 15:32:25,328 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-05 15:32:25,328 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-05 15:32:25,329 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-05 15:32:25,329 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-05 15:32:25,330 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-05 15:32:25,330 - INFO - Saving background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json...
+2025-08-05 15:32:25,332 - INFO - Successfully saved background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json
+2025-08-05 15:32:25,333 - INFO - === CONVERSION SUMMARY ===
+2025-08-05 15:32:25,333 - INFO - INIT section: 10 steps
+2025-08-05 15:32:25,333 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-05 15:32:25,333 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-05 15:32:25,334 - INFO - Total warnings: 0
+2025-08-05 15:32:25,334 - INFO - Total errors: 0
+2025-08-05 15:32:25,334 - INFO - ============================================================
+2025-08-05 15:32:25,334 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-05 15:37:22,430 - INFO - ================================================================================
+2025-08-05 15:37:22,430 - INFO - NEW CONVERSION RUN - 2025-08-05 15:37:22
+2025-08-05 15:37:22,431 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:37:22,431 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:37:22,431 - INFO - [------------------------------------------------------------------------------]
+2025-08-05 15:37:22,431 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:37:22,433 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:37:22,433 - INFO - Processing INIT section...
+2025-08-05 15:37:22,433 - INFO - Added clear_profile step
+2025-08-05 15:37:22,434 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-05 15:37:22,434 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-05 15:37:22,434 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-05 15:37:22,434 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-05 15:37:22,435 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-05 15:37:22,435 - INFO - Added hard temperature profile: pd_cooling
+2025-08-05 15:37:22,435 - INFO - Added PDA profile
+2025-08-05 15:37:22,435 - INFO - Added camera profile
+2025-08-05 15:37:22,435 - INFO - Processing DLS_ROUTINE section...
+2025-08-05 15:37:22,436 - INFO - Added 1 DLS sequences
+2025-08-05 15:37:22,436 - INFO - Processing CAM_ROUTINE section...
+2025-08-05 15:37:22,436 - INFO - Added 4 camera sequences
+2025-08-05 15:37:22,438 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:37:22,439 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-05 15:37:22,440 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-05 15:37:22,440 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-05 15:37:22,441 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-05 15:37:22,441 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-05 15:37:22,442 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-05 15:37:22,443 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-05 15:37:22,443 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-05 15:37:22,444 - INFO - Saving background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json...
+2025-08-05 15:37:22,446 - INFO - Successfully saved background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json
+2025-08-05 15:37:22,446 - INFO - === CONVERSION SUMMARY ===
+2025-08-05 15:37:22,446 - INFO - INIT section: 10 steps
+2025-08-05 15:37:22,447 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-05 15:37:22,447 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-05 15:37:22,447 - INFO - Total warnings: 0
+2025-08-05 15:37:22,447 - INFO - Total errors: 0
+2025-08-05 15:37:22,447 - INFO - ============================================================
+2025-08-05 15:37:22,448 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-05 15:40:37,179 - INFO - ================================================================================
+2025-08-05 15:40:37,179 - INFO - NEW CONVERSION RUN - 2025-08-05 15:40:37
+2025-08-05 15:40:37,180 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:40:37,180 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:40:37,180 - INFO - [------------------------------------------------------------------------------]
+2025-08-05 15:40:37,180 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:40:37,181 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:40:37,182 - INFO - Processing INIT section...
+2025-08-05 15:40:37,182 - INFO - Added clear_profile step
+2025-08-05 15:40:37,182 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-05 15:40:37,183 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-05 15:40:37,183 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-05 15:40:37,183 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-05 15:40:37,183 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-05 15:40:37,184 - INFO - Added hard temperature profile: pd_cooling
+2025-08-05 15:40:37,184 - INFO - Added PDA profile
+2025-08-05 15:40:37,184 - INFO - Added camera profile
+2025-08-05 15:40:37,184 - INFO - Processing DLS_ROUTINE section...
+2025-08-05 15:40:37,185 - INFO - Added 1 DLS sequences
+2025-08-05 15:40:37,185 - INFO - Processing CAM_ROUTINE section...
+2025-08-05 15:40:37,185 - INFO - Added 4 camera sequences
+2025-08-05 15:40:37,187 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:40:37,188 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-05 15:40:37,189 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-05 15:40:37,189 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-05 15:40:37,190 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-05 15:40:37,190 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-05 15:40:37,191 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-05 15:40:37,192 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-05 15:40:37,193 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-05 15:40:37,193 - INFO - Saving background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json...
+2025-08-05 15:40:37,195 - INFO - Successfully saved background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json
+2025-08-05 15:40:37,195 - INFO - === CONVERSION SUMMARY ===
+2025-08-05 15:40:37,195 - INFO - INIT section: 10 steps
+2025-08-05 15:40:37,196 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-05 15:40:37,196 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-05 15:40:37,196 - INFO - Total warnings: 0
+2025-08-05 15:40:37,196 - INFO - Total errors: 0
+2025-08-05 15:40:37,196 - INFO - ============================================================
+2025-08-05 15:40:37,197 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-05 15:54:54,991 - INFO - ================================================================================
+2025-08-05 15:54:54,992 - INFO - NEW CONVERSION RUN - 2025-08-05 15:54:54
+2025-08-05 15:54:54,992 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:54:54,993 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:54:54,993 - INFO - [------------------------------------------------------------------------------]
+2025-08-05 15:54:54,994 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:54:54,995 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 15:54:54,996 - INFO - Processing INIT section...
+2025-08-05 15:54:54,996 - INFO - Added clear_profile step
+2025-08-05 15:54:54,997 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-05 15:54:54,997 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-05 15:54:54,998 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-05 15:54:54,998 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-05 15:54:54,999 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-05 15:54:54,999 - INFO - Added hard temperature profile: pd_cooling
+2025-08-05 15:54:55,000 - INFO - Added PDA profile
+2025-08-05 15:54:55,000 - INFO - Added camera profile
+2025-08-05 15:54:55,000 - INFO - Processing DLS_ROUTINE section...
+2025-08-05 15:54:55,001 - INFO - Added 1 DLS sequences
+2025-08-05 15:54:55,001 - INFO - Processing CAM_ROUTINE section...
+2025-08-05 15:54:55,002 - INFO - Added 4 camera sequences
+2025-08-05 15:54:55,004 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 15:54:55,005 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-05 15:54:55,006 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-05 15:54:55,007 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-05 15:54:55,008 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-05 15:54:55,008 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-05 15:54:55,010 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-05 15:54:55,010 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-05 15:54:55,011 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-05 15:54:55,012 - INFO - Saving background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json...
+2025-08-05 15:54:55,014 - INFO - Successfully saved background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json
+2025-08-05 15:54:55,015 - INFO - === CONVERSION SUMMARY ===
+2025-08-05 15:54:55,015 - INFO - INIT section: 10 steps
+2025-08-05 15:54:55,015 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-05 15:54:55,016 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-05 15:54:55,016 - INFO - Total warnings: 0
+2025-08-05 15:54:55,016 - INFO - Total errors: 0
+2025-08-05 15:54:55,017 - INFO - ============================================================
+2025-08-05 15:54:55,017 - INFO - [SUCCESS] Conversion completed successfully with no issues!
+2025-08-05 17:17:42,426 - INFO - ================================================================================
+2025-08-05 17:17:42,427 - INFO - NEW CONVERSION RUN - 2025-08-05 17:17:42
+2025-08-05 17:17:42,428 - INFO - Input:  /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 17:17:42,428 - INFO - Output: /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 17:17:42,428 - INFO - [------------------------------------------------------------------------------]
+2025-08-05 17:17:42,428 - INFO - Starting conversion from /home/spec_cam/Configuration/obc_indvtest_config_sample.json to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 17:17:42,430 - INFO - Successfully loaded configuration from /home/spec_cam/Configuration/obc_indvtest_config_sample.json
+2025-08-05 17:17:42,430 - INFO - Processing INIT section...
+2025-08-05 17:17:42,430 - INFO - Added clear_profile step
+2025-08-05 17:17:42,430 - INFO - Added set_system step with start=now, dls_interval=21600s, cam_interval=21600s
+2025-08-05 17:17:42,431 - INFO - Added set_rtc step with source=obc_rtc
+2025-08-05 17:17:42,431 - INFO - Added set_ntc_control step for 8 NTC devices
+2025-08-05 17:17:42,431 - INFO - TEC devices in hard profiles (excluded from voltage uniformity check): [2]
+2025-08-05 17:17:42,431 - INFO - Added feedback temperature profile: exp_temp_control
+2025-08-05 17:17:42,432 - INFO - Added hard temperature profile: pd_cooling
+2025-08-05 17:17:42,432 - INFO - Added PDA profile
+2025-08-05 17:17:42,432 - INFO - Added camera profile
+2025-08-05 17:17:42,432 - INFO - Processing DLS_ROUTINE section...
+2025-08-05 17:17:42,433 - INFO - Added 1 DLS sequences
+2025-08-05 17:17:42,433 - INFO - Processing CAM_ROUTINE section...
+2025-08-05 17:17:42,434 - INFO - Added 4 camera sequences
+2025-08-05 17:17:42,436 - INFO - Successfully saved converted configuration to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_step.json
+2025-08-05 17:17:42,437 - INFO - Saving DLS routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json (int_laser)...
+2025-08-05 17:17:42,438 - INFO - Successfully saved DLS sequences to /home/spec_cam/.app_src/02_ConfigSystem/int_laser.json
+2025-08-05 17:17:42,439 - INFO - Saving CAM routine sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json (ext_laser)...
+2025-08-05 17:17:42,440 - INFO - Successfully saved external laser sequences to /home/spec_cam/.app_src/02_ConfigSystem/ext_laser.json
+2025-08-05 17:17:42,440 - INFO - Saving CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json (camera.json)...
+2025-08-05 17:17:42,442 - INFO - Successfully saved CIS parameters to /home/spec_cam/.app_src/02_ConfigSystem/camera.json
+2025-08-05 17:17:42,442 - INFO - Saving release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json...
+2025-08-05 17:17:42,443 - INFO - Successfully saved release/lockin times to /home/spec_cam/.app_src/02_ConfigSystem/release_lockin.json
+2025-08-05 17:17:42,444 - INFO - Saving background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json...
+2025-08-05 17:17:42,446 - INFO - Successfully saved background config to /home/spec_cam/.app_src/02_ConfigSystem/beepc1_background.json
+2025-08-05 17:17:42,447 - INFO - === CONVERSION SUMMARY ===
+2025-08-05 17:17:42,447 - INFO - INIT section: 10 steps
+2025-08-05 17:17:42,447 - INFO - DLS_ROUTINE section: 5 steps
+2025-08-05 17:17:42,448 - INFO - CAM_ROUTINE section: 25 steps
+2025-08-05 17:17:42,448 - INFO - Total warnings: 0
+2025-08-05 17:17:42,448 - INFO - Total errors: 0
+2025-08-05 17:17:42,449 - INFO - ============================================================
+2025-08-05 17:17:42,449 - INFO - [SUCCESS] Conversion completed successfully with no issues!

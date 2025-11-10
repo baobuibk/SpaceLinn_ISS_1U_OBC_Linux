@@ -1,0 +1,7 @@
+2025-07-28 11:59:23,214 - INFO - ================================================================================
+2025-07-28 11:59:23,214 - INFO - NEW CONVERSION RUN - 2025-07-28 11:59:23
+2025-07-28 11:59:23,215 - INFO - Input:  obc_indvtest_config_sample.json
+2025-07-28 11:59:23,215 - INFO - Output: beepc1_step.json
+2025-07-28 11:59:23,215 - INFO - [------------------------------------------------------------------------------]
+2025-07-28 11:59:23,216 - INFO - Starting conversion from obc_indvtest_config_sample.json to beepc1_step.json
+2025-07-28 11:59:23,216 - ERROR - Configuration file obc_indvtest_config_sample.json not found

@@ -1,0 +1,3524 @@
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x99 (153)
+DEBUG - Length low byte received: 4
+DEBUG - Length high byte received: 0 (Total Length: 4)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x01 (1)
+DEBUG - CRC OK: Received 0xA1CE, Calculated 0xA1CE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x99
+DEBUG - Sending packet: ID=0x98, Length=4
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x0B (11)
+DEBUG - Data byte received [3]: 0xE2 (226)
+DEBUG - Data byte received [4]: 0xEC (236)
+DEBUG - Data byte received [5]: 0x19 (25)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x5F9A, Calculated 0x5F9A
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x01 (1)
+DEBUG - Data byte received [2]: 0x15 (21)
+DEBUG - Data byte received [3]: 0x4B (75)
+DEBUG - Data byte received [4]: 0x4A (74)
+DEBUG - Data byte received [5]: 0x17 (23)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xC489, Calculated 0xC489
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x02 (2)
+DEBUG - Data byte received [2]: 0xE5 (229)
+DEBUG - Data byte received [3]: 0x97 (151)
+DEBUG - Data byte received [4]: 0x2D (45)
+DEBUG - Data byte received [5]: 0x2C (44)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xD941, Calculated 0xD941
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x03 (3)
+DEBUG - Data byte received [2]: 0x80 (128)
+DEBUG - Data byte received [3]: 0xF2 (242)
+DEBUG - Data byte received [4]: 0x02 (2)
+DEBUG - Data byte received [5]: 0x33 (51)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x18BE, Calculated 0x18BE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x04 (4)
+DEBUG - Data byte received [2]: 0x09 (9)
+DEBUG - Data byte received [3]: 0xE4 (228)
+DEBUG - Data byte received [4]: 0x32 (50)
+DEBUG - Data byte received [5]: 0xC4 (196)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x894F, Calculated 0x894F
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x05 (5)
+DEBUG - Data byte received [2]: 0xD0 (208)
+DEBUG - Data byte received [3]: 0x5E (94)
+DEBUG - Data byte received [4]: 0x3D (61)
+DEBUG - Data byte received [5]: 0xB6 (182)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xEFD8, Calculated 0xEFD8
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x06 (6)
+DEBUG - Data byte received [2]: 0x47 (71)
+DEBUG - Data byte received [3]: 0xB3 (179)
+DEBUG - Data byte received [4]: 0x37 (55)
+DEBUG - Data byte received [5]: 0x9D (157)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x567B, Calculated 0x567B
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x07 (7)
+DEBUG - Data byte received [2]: 0x6F (111)
+DEBUG - Data byte received [3]: 0xCE (206)
+DEBUG - Data byte received [4]: 0xA5 (165)
+DEBUG - Data byte received [5]: 0x2C (44)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x0D1A, Calculated 0x0D1A
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x08 (8)
+DEBUG - Data byte received [2]: 0x41 (65)
+DEBUG - Data byte received [3]: 0x17 (23)
+DEBUG - Data byte received [4]: 0xA7 (167)
+DEBUG - Data byte received [5]: 0x08 (8)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xD70F, Calculated 0xD70F
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x09 (9)
+DEBUG - Data byte received [2]: 0xA3 (163)
+DEBUG - Data byte received [3]: 0x09 (9)
+DEBUG - Data byte received [4]: 0x93 (147)
+DEBUG - Data byte received [5]: 0xC2 (194)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x928C, Calculated 0x928C
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0A (10)
+DEBUG - Data byte received [2]: 0x9A (154)
+DEBUG - Data byte received [3]: 0x02 (2)
+DEBUG - Data byte received [4]: 0x73 (115)
+DEBUG - Data byte received [5]: 0x9C (156)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xCE7E, Calculated 0xCE7E
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0B (11)
+DEBUG - Data byte received [2]: 0x30 (48)
+DEBUG - Data byte received [3]: 0x8B (139)
+DEBUG - Data byte received [4]: 0x01 (1)
+DEBUG - Data byte received [5]: 0xA1 (161)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xAE8C, Calculated 0xAE8C
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0C (12)
+DEBUG - Data byte received [2]: 0xF6 (246)
+DEBUG - Data byte received [3]: 0x42 (66)
+DEBUG - Data byte received [4]: 0x22 (34)
+DEBUG - Data byte received [5]: 0x68 (104)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xAED3, Calculated 0xAED3
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0D (13)
+DEBUG - Data byte received [2]: 0x72 (114)
+DEBUG - Data byte received [3]: 0xDB (219)
+DEBUG - Data byte received [4]: 0x8B (139)
+DEBUG - Data byte received [5]: 0xBF (191)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x96C1, Calculated 0x96C1
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0E (14)
+DEBUG - Data byte received [2]: 0xD3 (211)
+DEBUG - Data byte received [3]: 0x09 (9)
+DEBUG - Data byte received [4]: 0x8B (139)
+DEBUG - Data byte received [5]: 0xD5 (213)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x69E1, Calculated 0x69E1
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0F (15)
+DEBUG - Data byte received [2]: 0x7F (127)
+DEBUG - Data byte received [3]: 0xEF (239)
+DEBUG - Data byte received [4]: 0x8E (142)
+DEBUG - Data byte received [5]: 0xAC (172)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x71E3, Calculated 0x71E3
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x10 (16)
+DEBUG - Data byte received [2]: 0x1C (28)
+DEBUG - Data byte received [3]: 0xB8 (184)
+DEBUG - Data byte received [4]: 0x9C (156)
+DEBUG - Data byte received [5]: 0x37 (55)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x8D06, Calculated 0x8D06
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x11 (17)
+DEBUG - Data byte received [2]: 0x79 (121)
+DEBUG - Data byte received [3]: 0xBA (186)
+DEBUG - Data byte received [4]: 0x7D (125)
+DEBUG - Data byte received [5]: 0x6D (109)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x347C, Calculated 0x347C
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x12 (18)
+DEBUG - Data byte received [2]: 0x29 (41)
+DEBUG - Data byte received [3]: 0x67 (103)
+DEBUG - Data byte received [4]: 0xBE (190)
+DEBUG - Data byte received [5]: 0xEC (236)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x9710, Calculated 0x9710
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x13 (19)
+DEBUG - Data byte received [2]: 0xB6 (182)
+DEBUG - Data byte received [3]: 0x3E (62)
+DEBUG - Data byte received [4]: 0x4B (75)
+DEBUG - Data byte received [5]: 0xBA (186)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xE930, Calculated 0xE930
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x14 (20)
+DEBUG - Data byte received [2]: 0xF4 (244)
+DEBUG - Data byte received [3]: 0x6F (111)
+DEBUG - Data byte received [4]: 0x1D (29)
+DEBUG - Data byte received [5]: 0xBE (190)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x0170, Calculated 0x0170
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x15 (21)
+DEBUG - Data byte received [2]: 0x87 (135)
+DEBUG - Data byte received [3]: 0xD8 (216)
+DEBUG - Data byte received [4]: 0xE0 (224)
+DEBUG - Data byte received [5]: 0xCF (207)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x6A85, Calculated 0x6A85
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x16 (22)
+DEBUG - Data byte received [2]: 0xC7 (199)
+DEBUG - Data byte received [3]: 0x94 (148)
+DEBUG - Data byte received [4]: 0xB2 (178)
+DEBUG - Data byte received [5]: 0xBA (186)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x33A8, Calculated 0x33A8
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x17 (23)
+DEBUG - Data byte received [2]: 0xE2 (226)
+DEBUG - Data byte received [3]: 0xDE (222)
+DEBUG - Data byte received [4]: 0xE0 (224)
+DEBUG - Data byte received [5]: 0xB3 (179)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xCFD3, Calculated 0xCFD3
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x18 (24)
+DEBUG - Data byte received [2]: 0x41 (65)
+DEBUG - Data byte received [3]: 0x35 (53)
+DEBUG - Data byte received [4]: 0x81 (129)
+DEBUG - Data byte received [5]: 0x60 (96)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x38BD, Calculated 0x38BD
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x19 (25)
+DEBUG - Data byte received [2]: 0xC8 (200)
+DEBUG - Data byte received [3]: 0xE8 (232)
+DEBUG - Data byte received [4]: 0x4F (79)
+DEBUG - Data byte received [5]: 0x73 (115)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xB6D1, Calculated 0xB6D1
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x1A (26)
+DEBUG - Data byte received [2]: 0x7C (124)
+DEBUG - Data byte received [3]: 0x4B (75)
+DEBUG - Data byte received [4]: 0x50 (80)
+DEBUG - Data byte received [5]: 0x4D (77)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x1E (30)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x90C8, Calculated 0x90C8
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x22 (34)
+DEBUG - Length low byte received: 10
+DEBUG - Length high byte received: 0 (Total Length: 10)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x00 (0)
+DEBUG - Data byte received [4]: 0x19 (25)
+DEBUG - Data byte received [5]: 0x07 (7)
+DEBUG - Data byte received [6]: 0x1B (27)
+DEBUG - Data byte received [7]: 0x12 (18)
+DEBUG - Data byte received [8]: 0x1E (30)
+DEBUG - Data byte received [9]: 0x04 (4)
+DEBUG - CRC OK: Received 0xC71D, Calculated 0xC71D
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x22
+DEBUG - Sending packet: ID=0x32, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x22 (34)
+DEBUG - Length low byte received: 10
+DEBUG - Length high byte received: 0 (Total Length: 10)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x00 (0)
+DEBUG - Data byte received [4]: 0x19 (25)
+DEBUG - Data byte received [5]: 0x07 (7)
+DEBUG - Data byte received [6]: 0x1B (27)
+DEBUG - Data byte received [7]: 0x12 (18)
+DEBUG - Data byte received [8]: 0x1E (30)
+DEBUG - Data byte received [9]: 0x04 (4)
+DEBUG - CRC OK: Received 0xC71D, Calculated 0xC71D
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x22
+DEBUG - Sending packet: ID=0x32, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x22 (34)
+DEBUG - Length low byte received: 10
+DEBUG - Length high byte received: 0 (Total Length: 10)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x00 (0)
+DEBUG - Data byte received [4]: 0x19 (25)
+DEBUG - Data byte received [5]: 0x07 (7)
+DEBUG - Data byte received [6]: 0x1B (27)
+DEBUG - Data byte received [7]: 0x12 (18)
+DEBUG - Data byte received [8]: 0x1E (30)
+DEBUG - Data byte received [9]: 0x04 (4)
+DEBUG - CRC OK: Received 0xC71D, Calculated 0xC71D
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x22
+DEBUG - Sending packet: ID=0x32, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x01 (1)
+DEBUG - CRC OK: Received 0x522A, Calculated 0x522A
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x03 (3)
+DEBUG - CRC OK: Received 0x7268, Calculated 0x7268
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x02 (2)
+DEBUG - CRC OK: Received 0x6249, Calculated 0x6249
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x04 (4)
+DEBUG - CRC OK: Received 0x028F, Calculated 0x028F
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x77 (119)
+DEBUG - Data byte received [3]: 0x5A (90)
+DEBUG - Data byte received [4]: 0xCD (205)
+DEBUG - Data byte received [5]: 0x6F (111)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x6F1C, Calculated 0x6F1C
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x01 (1)
+DEBUG - Data byte received [2]: 0xA0 (160)
+DEBUG - Data byte received [3]: 0x0F (15)
+DEBUG - Data byte received [4]: 0x49 (73)
+DEBUG - Data byte received [5]: 0x0A (10)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xEAAD, Calculated 0xEAAD
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x02 (2)
+DEBUG - Data byte received [2]: 0x5A (90)
+DEBUG - Data byte received [3]: 0xA3 (163)
+DEBUG - Data byte received [4]: 0x6B (107)
+DEBUG - Data byte received [5]: 0x0B (11)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xDCD2, Calculated 0xDCD2
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x03 (3)
+DEBUG - Data byte received [2]: 0x6D (109)
+DEBUG - Data byte received [3]: 0xF1 (241)
+DEBUG - Data byte received [4]: 0xE6 (230)
+DEBUG - Data byte received [5]: 0x15 (21)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xD1AC, Calculated 0xD1AC
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x04 (4)
+DEBUG - Data byte received [2]: 0x5D (93)
+DEBUG - Data byte received [3]: 0x45 (69)
+DEBUG - Data byte received [4]: 0x32 (50)
+DEBUG - Data byte received [5]: 0xAF (175)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xBA67, Calculated 0xBA67
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x05 (5)
+DEBUG - Data byte received [2]: 0xA6 (166)
+DEBUG - Data byte received [3]: 0xBE (190)
+DEBUG - Data byte received [4]: 0x85 (133)
+DEBUG - Data byte received [5]: 0x9D (157)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xF7E6, Calculated 0xF7E6
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x06 (6)
+DEBUG - Data byte received [2]: 0xDD (221)
+DEBUG - Data byte received [3]: 0x32 (50)
+DEBUG - Data byte received [4]: 0xF7 (247)
+DEBUG - Data byte received [5]: 0x6A (106)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xA8CD, Calculated 0xA8CD
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x07 (7)
+DEBUG - Data byte received [2]: 0x6D (109)
+DEBUG - Data byte received [3]: 0xD5 (213)
+DEBUG - Data byte received [4]: 0x09 (9)
+DEBUG - Data byte received [5]: 0x22 (34)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x52CA, Calculated 0x52CA
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x08 (8)
+DEBUG - Data byte received [2]: 0xA7 (167)
+DEBUG - Data byte received [3]: 0x63 (99)
+DEBUG - Data byte received [4]: 0x06 (6)
+DEBUG - Data byte received [5]: 0x04 (4)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xDC3F, Calculated 0xDC3F
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x09 (9)
+DEBUG - Data byte received [2]: 0x66 (102)
+DEBUG - Data byte received [3]: 0xA2 (162)
+DEBUG - Data byte received [4]: 0xDF (223)
+DEBUG - Data byte received [5]: 0x71 (113)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x647F, Calculated 0x647F
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0A (10)
+DEBUG - Data byte received [2]: 0x03 (3)
+DEBUG - Data byte received [3]: 0xC1 (193)
+DEBUG - Data byte received [4]: 0xC5 (197)
+DEBUG - Data byte received [5]: 0xA3 (163)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xCDC6, Calculated 0xCDC6
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0B (11)
+DEBUG - Data byte received [2]: 0x4F (79)
+DEBUG - Data byte received [3]: 0x1B (27)
+DEBUG - Data byte received [4]: 0x09 (9)
+DEBUG - Data byte received [5]: 0x61 (97)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xD0F6, Calculated 0xD0F6
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0C (12)
+DEBUG - Data byte received [2]: 0xB6 (182)
+DEBUG - Data byte received [3]: 0x82 (130)
+DEBUG - Data byte received [4]: 0x68 (104)
+DEBUG - Data byte received [5]: 0xFF (255)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xAD01, Calculated 0xAD01
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+[*] Listening on /dev/ttyAMA3 @ 115200
+[CMD] CHUNK
+Chunk ID: 0
+Received CRC: 0BE2EC19, Calculated CRC: 0BE2EC19
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 0
+[CMD] CHUNK
+Chunk ID: 1
+Received CRC: 154B4A17, Calculated CRC: 154B4A17
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 1
+[CMD] CHUNK
+Chunk ID: 2
+Received CRC: E5972D2C, Calculated CRC: E5972D2C
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 2
+[CMD] CHUNK
+Chunk ID: 3
+Received CRC: 80F20233, Calculated CRC: 80F20233
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 3
+[CMD] CHUNK
+Chunk ID: 4
+Received CRC: 09E432C4, Calculated CRC: 09E432C4
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 4
+[CMD] CHUNK
+Chunk ID: 5
+Received CRC: D05E3DB6, Calculated CRC: D05E3DB6
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 5
+[CMD] CHUNK
+Chunk ID: 6
+Received CRC: 47B3379D, Calculated CRC: 47B3379D
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 6
+[CMD] CHUNK
+Chunk ID: 7
+Received CRC: 6FCEA52C, Calculated CRC: 6FCEA52C
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 7
+[CMD] CHUNK
+Chunk ID: 8
+Received CRC: 4117A708, Calculated CRC: 4117A708
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 8
+[CMD] CHUNK
+Chunk ID: 9
+Received CRC: A30993C2, Calculated CRC: A30993C2
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 9
+[CMD] CHUNK
+Chunk ID: 10
+Received CRC: 9A02739C, Calculated CRC: 9A02739C
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 10
+[CMD] CHUNK
+Chunk ID: 11
+Received CRC: 308B01A1, Calculated CRC: 308B01A1
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 11
+[CMD] CHUNK
+Chunk ID: 12
+Received CRC: F6422268, Calculated CRC: F6422268
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 12
+[CMD] CHUNK
+Chunk ID: 13
+Received CRC: 72DB8BBF, Calculated CRC: 72DB8BBF
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 13
+[CMD] CHUNK
+Chunk ID: 14
+Received CRC: D3098BD5, Calculated CRC: D3098BD5
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 14
+[CMD] CHUNK
+Chunk ID: 15
+Received CRC: 7FEF8EAC, Calculated CRC: 7FEF8EAC
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 15
+[CMD] CHUNK
+Chunk ID: 16
+Received CRC: 1CB89C37, Calculated CRC: 1CB89C37
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 16
+[CMD] CHUNK
+Chunk ID: 17
+Received CRC: 79BA7D6D, Calculated CRC: 79BA7D6D
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 17
+[CMD] CHUNK
+Chunk ID: 18
+Received CRC: 2967BEEC, Calculated CRC: 2967BEEC
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 18
+[CMD] CHUNK
+Chunk ID: 19
+Received CRC: B63E4BBA, Calculated CRC: B63E4BBA
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 19
+[CMD] CHUNK
+Chunk ID: 20
+Received CRC: F46F1DBE, Calculated CRC: F46F1DBE
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 20
+[CMD] CHUNK
+Chunk ID: 21
+Received CRC: 87D8E0CF, Calculated CRC: 87D8E0CF
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 21
+[CMD] CHUNK
+Chunk ID: 22
+Received CRC: C794B2BA, Calculated CRC: C794B2BA
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 22
+[CMD] CHUNK
+Chunk ID: 23
+Received CRC: E2DEE0B3, Calculated CRC: E2DEE0B3
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 23
+[CMD] CHUNK
+Chunk ID: 24
+Received CRC: 41358160, Calculated CRC: 41358160
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 24
+[CMD] CHUNK
+Chunk ID: 25
+Received CRC: C8E84F73, Calculated CRC: C8E84F73
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 25
+[CMD] CHUNK
+Chunk ID: 26
+Received CRC: 7C4B504D, Calculated CRC: 7C4B504D
+Timestamp: 2025-07-27 18:30:04
+[OK]
+[+] Saved to dls_data_20250727_183004.bin (append)
+[v] Finish chunk: 26
+[CMD] CURRENT
+Received CRC: 00000000, Calculated CRC: 7C4B504D
+Timestamp: 2025-07-27 18:30:04
+[FAIL] CRC mismatch
+[.] Current Data got!
+[+] Saved to current_data_20250727_183004.bin (write)
+[CMD] CURRENT
+Received CRC: 00000000, Calculated CRC: 7C4B504D
+Timestamp: 2025-07-27 18:30:04
+[FAIL] CRC mismatch
+[.] Current Data got!
+[+] Saved to current_data_20250727_183004.bin (write)
+[CMD] CURRENT
+Received CRC: 00000000, Calculated CRC: 7C4B504D
+Timestamp: 2025-07-27 18:30:04
+[FAIL] CRC mismatch
+[.] Current Data got!
+[+] Saved to current_data_20250727_183004.bin (write)
+[CMD] Set Cam Position
+Payload Size: 1
+Payload: 01
+[CMD] Take Image
+Payload Size: 0
+Payload: 
+[CMD] Set Cam Position
+Payload Size: 1
+Payload: 03
+[CMD] Take Image
+Payload Size: 0
+Payload: 
+[CMD] Set Cam Position
+Payload Size: 1
+Payload: 02
+[CMD] Take Image
+Payload Size: 0
+Payload: 
+[CMD] Set Cam Position
+Payload Size: 1
+Payload: 04
+[CMD] Take Image
+Payload Size: 0
+Payload: 
+[CMD] CHUNK
+Chunk ID: 0
+Received CRC: 775ACD6F, Calculated CRC: 775ACD6F
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 0
+[CMD] CHUNK
+Chunk ID: 1
+Received CRC: A00F490A, Calculated CRC: A00F490A
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 1
+[CMD] CHUNK
+Chunk ID: 2
+Received CRC: 5AA36B0B, Calculated CRC: 5AA36B0B
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 2
+[CMD] CHUNK
+Chunk ID: 3
+Received CRC: 6DF1E615, Calculated CRC: 6DF1E615
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 3
+[CMD] CHUNK
+Chunk ID: 4
+Received CRC: 5D4532AF, Calculated CRC: 5D4532AF
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 4
+[CMD] CHUNK
+Chunk ID: 5
+Received CRC: A6BE859D, Calculated CRC: A6BE859D
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 5
+[CMD] CHUNK
+Chunk ID: 6
+Received CRC: DD32F76A, Calculated CRC: DD32F76A
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 6
+[CMD] CHUNK
+Chunk ID: 7
+Received CRC: 6DD50922, Calculated CRC: 6DD50922
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 7
+[CMD] CHUNK
+Chunk ID: 8
+Received CRC: A7630604, Calculated CRC: A7630604
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 8
+[CMD] CHUNK
+Chunk ID: 9
+Received CRC: 66A2DF71, Calculated CRC: 66A2DF71
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 9
+[CMD] CHUNK
+Chunk ID: 10
+Received CRC: 03C1C5A3, Calculated CRC: 03C1C5A3
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 10
+[CMD] CHUNK
+Chunk ID: 11
+Received CRC: 4F1B0961, Calculated CRC: 4F1B0961
+Timestamp: 2025-07-27 18:35:04
+[OK]
+[+] Saved to dls_data_20250727_183504.bin (append)
+[v] Finish chunk: 11
+[CMD] CHUNK
+Chunk ID: 12
+Received CRC: B68268FF, Calculated CRC: B68268FF
+Timestamp: 2025-07-27 18:35:04
+[OK]
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0D (13)
+DEBUG - Data byte received [2]: 0xA8 (168)
+DEBUG - Data byte received [3]: 0x58 (88)
+DEBUG - Data byte received [4]: 0x1C (28)
+DEBUG - Data byte received [5]: 0x3E (62)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xF532, Calculated 0xF532
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0E (14)
+DEBUG - Data byte received [2]: 0x7D (125)
+DEBUG - Data byte received [3]: 0x1C (28)
+DEBUG - Data byte received [4]: 0x64 (100)
+DEBUG - Data byte received [5]: 0x04 (4)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x8A23, Calculated 0x8A23
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x0F (15)
+DEBUG - Data byte received [2]: 0x25 (37)
+DEBUG - Data byte received [3]: 0x26 (38)
+DEBUG - Data byte received [4]: 0x00 (0)
+DEBUG - Data byte received [5]: 0x9B (155)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x7189, Calculated 0x7189
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x10 (16)
+DEBUG - Data byte received [2]: 0x98 (152)
+DEBUG - Data byte received [3]: 0x01 (1)
+DEBUG - Data byte received [4]: 0xA8 (168)
+DEBUG - Data byte received [5]: 0x59 (89)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xF681, Calculated 0xF681
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x11 (17)
+DEBUG - Data byte received [2]: 0x23 (35)
+DEBUG - Data byte received [3]: 0xD1 (209)
+DEBUG - Data byte received [4]: 0x69 (105)
+DEBUG - Data byte received [5]: 0xB6 (182)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xF1FE, Calculated 0xF1FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x12 (18)
+DEBUG - Data byte received [2]: 0x90 (144)
+DEBUG - Data byte received [3]: 0x7E (126)
+DEBUG - Data byte received [4]: 0x02 (2)
+DEBUG - Data byte received [5]: 0xF8 (248)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x450D, Calculated 0x450D
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x13 (19)
+DEBUG - Data byte received [2]: 0x72 (114)
+DEBUG - Data byte received [3]: 0xF4 (244)
+DEBUG - Data byte received [4]: 0x77 (119)
+DEBUG - Data byte received [5]: 0x5B (91)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x59F8, Calculated 0x59F8
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x14 (20)
+DEBUG - Data byte received [2]: 0x4D (77)
+DEBUG - Data byte received [3]: 0xFA (250)
+DEBUG - Data byte received [4]: 0x81 (129)
+DEBUG - Data byte received [5]: 0xCB (203)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0xA9DC, Calculated 0xA9DC
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x15 (21)
+DEBUG - Data byte received [2]: 0xBF (191)
+DEBUG - Data byte received [3]: 0x65 (101)
+DEBUG - Data byte received [4]: 0x5E (94)
+DEBUG - Data byte received [5]: 0x9E (158)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x9CA5, Calculated 0x9CA5
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x16 (22)
+DEBUG - Data byte received [2]: 0xAB (171)
+DEBUG - Data byte received [3]: 0xC0 (192)
+DEBUG - Data byte received [4]: 0x66 (102)
+DEBUG - Data byte received [5]: 0xD8 (216)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x96B1, Calculated 0x96B1
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x17 (23)
+DEBUG - Data byte received [2]: 0xE4 (228)
+DEBUG - Data byte received [3]: 0xF5 (245)
+DEBUG - Data byte received [4]: 0xB4 (180)
+DEBUG - Data byte received [5]: 0x8E (142)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x1B6C, Calculated 0x1B6C
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x18 (24)
+DEBUG - Data byte received [2]: 0x5D (93)
+DEBUG - Data byte received [3]: 0xC8 (200)
+DEBUG - Data byte received [4]: 0xDF (223)
+DEBUG - Data byte received [5]: 0x99 (153)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x23E7, Calculated 0x23E7
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x19 (25)
+DEBUG - Data byte received [2]: 0x87 (135)
+DEBUG - Data byte received [3]: 0xE3 (227)
+DEBUG - Data byte received [4]: 0x01 (1)
+DEBUG - Data byte received [5]: 0x3D (61)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x62AD, Calculated 0x62AD
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x21 (33)
+DEBUG - Length low byte received: 12
+DEBUG - Length high byte received: 0 (Total Length: 12)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x1A (26)
+DEBUG - Data byte received [2]: 0x88 (136)
+DEBUG - Data byte received [3]: 0xB6 (182)
+DEBUG - Data byte received [4]: 0x99 (153)
+DEBUG - Data byte received [5]: 0x9B (155)
+DEBUG - Data byte received [6]: 0x19 (25)
+DEBUG - Data byte received [7]: 0x07 (7)
+DEBUG - Data byte received [8]: 0x1B (27)
+DEBUG - Data byte received [9]: 0x12 (18)
+DEBUG - Data byte received [10]: 0x23 (35)
+DEBUG - Data byte received [11]: 0x04 (4)
+DEBUG - CRC OK: Received 0x8DC8, Calculated 0x8DC8
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x21
+DEBUG - Sending packet: ID=0x31, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x22 (34)
+DEBUG - Length low byte received: 10
+DEBUG - Length high byte received: 0 (Total Length: 10)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x00 (0)
+DEBUG - Data byte received [4]: 0x19 (25)
+DEBUG - Data byte received [5]: 0x07 (7)
+DEBUG - Data byte received [6]: 0x1B (27)
+DEBUG - Data byte received [7]: 0x12 (18)
+DEBUG - Data byte received [8]: 0x23 (35)
+DEBUG - Data byte received [9]: 0x04 (4)
+DEBUG - CRC OK: Received 0xB4D4, Calculated 0xB4D4
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x22
+DEBUG - Sending packet: ID=0x32, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x22 (34)
+DEBUG - Length low byte received: 10
+DEBUG - Length high byte received: 0 (Total Length: 10)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x00 (0)
+DEBUG - Data byte received [4]: 0x19 (25)
+DEBUG - Data byte received [5]: 0x07 (7)
+DEBUG - Data byte received [6]: 0x1B (27)
+DEBUG - Data byte received [7]: 0x12 (18)
+DEBUG - Data byte received [8]: 0x23 (35)
+DEBUG - Data byte received [9]: 0x04 (4)
+DEBUG - CRC OK: Received 0xB4D4, Calculated 0xB4D4
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x22
+DEBUG - Sending packet: ID=0x32, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x22 (34)
+DEBUG - Length low byte received: 10
+DEBUG - Length high byte received: 0 (Total Length: 10)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x00 (0)
+DEBUG - Data byte received [4]: 0x19 (25)
+DEBUG - Data byte received [5]: 0x07 (7)
+DEBUG - Data byte received [6]: 0x1B (27)
+DEBUG - Data byte received [7]: 0x12 (18)
+DEBUG - Data byte received [8]: 0x23 (35)
+DEBUG - Data byte received [9]: 0x04 (4)
+DEBUG - CRC OK: Received 0xB4D4, Calculated 0xB4D4
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x22
+DEBUG - Sending packet: ID=0x32, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x01 (1)
+DEBUG - CRC OK: Received 0x522A, Calculated 0x522A
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x03 (3)
+DEBUG - CRC OK: Received 0x7268, Calculated 0x7268
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x02 (2)
+DEBUG - CRC OK: Received 0x6249, Calculated 0x6249
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x50 (80)
+DEBUG - Length low byte received: 1
+DEBUG - Length high byte received: 0 (Total Length: 1)
+DEBUG - Data byte received [0]: 0x04 (4)
+DEBUG - CRC OK: Received 0x028F, Calculated 0x028F
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x50
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x51 (81)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x69FE, Calculated 0x69FE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x51
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Protocol state machine reset
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Protocol state machine reset
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x00 (0)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 93 (Total Length: 23808)
+DEBUG - Protocol state machine reset
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Protocol state machine reset
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x99 (153)
+DEBUG - Length low byte received: 4
+DEBUG - Length high byte received: 0 (Total Length: 4)
+DEBUG - Data byte received [0]: 0x00 (0)
+DEBUG - Data byte received [1]: 0x00 (0)
+DEBUG - Data byte received [2]: 0x00 (0)
+DEBUG - Data byte received [3]: 0x01 (1)
+DEBUG - CRC OK: Received 0xA1CE, Calculated 0xA1CE
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x99
+DEBUG - Sending packet: ID=0x98, Length=4
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+Exception in thread Thread-1 (serial_rx_thread):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/spec_cam/CAOHIEU_DEV/slt_src/handler/handler.py", line 321, in serial_rx_thread
+    modfsp.process()
+  File "/home/spec_cam/CAOHIEU_DEV/slt_src/handler/modfsp.py", line 331, in process
+    has_data, byte = self.read_byte_callback()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spec_cam/CAOHIEU_DEV/slt_src/handler/handler.py", line 120, in read_byte_callback
+    return True, byte[0]
+                 ~~~~^^^
+IndexError: index out of range
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Sending packet: ID=0x02, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x12 (18)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x2D03, Calculated 0x2D03
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x12
+WARNING - No handler registered for ID: 0x12
+DEBUG - Protocol state machine reset
+DEBUG - Registered handler for ID: 0x50
+DEBUG - Registered handler for ID: 0x51
+DEBUG - Registered handler for ID: 0x21
+DEBUG - Registered handler for ID: 0x22
+DEBUG - Registered handler for ID: 0x23
+DEBUG - Registered handler for ID: 0x99
+DEBUG - Sending packet: ID=0x02, Length=0
+DEBUG - Start1 byte received (0xC0)
+DEBUG - Protocol state machine reset
+DEBUG - Start2 byte received (0xDE)
+DEBUG - ID byte received: 0x12 (18)
+DEBUG - Length low byte received: 0
+DEBUG - Length high byte received: 0 (Total Length: 0)
+DEBUG - CRC OK: Received 0x2D03, Calculated 0x2D03
+DEBUG - Stop1 byte received (0xDA)
+DEBUG - Stop2 byte received (0xED)
+DEBUG - Packet valid, calling handler for ID: 0x12
+WARNING - No handler registered for ID: 0x12
+                                                                                                                                                                                                                  [*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-07-30 10:05:26,600 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-07-30 17:35:01,143 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-01 15:51:41,816 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Listening on /dev/ttyAMA3 @ 115200
+Sending RUN EXPERIMENT command...
+Experiment command sent successfully!
+[CMD] Run Experiment ACK!
+[CMD] CHUNK
+Chunk ID: 0
+Received CRC: 69BC95F2, Calculated CRC: 69BC95F2
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 0
+2025-08-01 15:54:43,548 [INFO] [CMD] CHUNK
+2025-08-01 15:54:43,548 [INFO] [v] New DLS Data Chunk accepted
+[CMD] CHUNK
+Chunk ID: 1
+Received CRC: C949C69C, Calculated CRC: C949C69C
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 1
+[CMD] CHUNK
+Chunk ID: 2
+Received CRC: 4411D658, Calculated CRC: 4411D658
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 2
+[CMD] CHUNK
+Chunk ID: 3
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 3
+[CMD] CHUNK
+Chunk ID: 4
+Received CRC: 975B48C7, Calculated CRC: 975B48C7
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 4
+[CMD] CHUNK
+Chunk ID: 5
+Received CRC: B82D8F29, Calculated CRC: B82D8F29
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 5
+[CMD] CHUNK
+Chunk ID: 6
+Received CRC: B6755ED9, Calculated CRC: B6755ED9
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 6
+[CMD] CHUNK
+Chunk ID: 7
+Received CRC: AF662B47, Calculated CRC: AF662B47
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 7
+[CMD] CHUNK
+Chunk ID: 8
+Received CRC: 105D65FB, Calculated CRC: 105D65FB
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 8
+[CMD] CHUNK
+Chunk ID: 9
+Received CRC: E4D4A0F0, Calculated CRC: E4D4A0F0
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 9
+[CMD] CHUNK
+Chunk ID: 10
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 10
+[CMD] CHUNK
+Chunk ID: 11
+Received CRC: 54185A80, Calculated CRC: 54185A80
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 11
+[CMD] CHUNK
+Chunk ID: 12
+Received CRC: F477BC80, Calculated CRC: F477BC80
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 12
+[CMD] CHUNK
+Chunk ID: 13
+Received CRC: DC2CF326, Calculated CRC: DC2CF326
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 13
+[CMD] CHUNK
+Chunk ID: 14
+Received CRC: 9D8CC4A7, Calculated CRC: 9D8CC4A7
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 14
+[CMD] CHUNK
+Chunk ID: 15
+Received CRC: 2D7EA28C, Calculated CRC: 2D7EA28C
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 15
+[CMD] CHUNK
+Chunk ID: 16
+Received CRC: BB305A42, Calculated CRC: BB305A42
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 16
+[CMD] CHUNK
+Chunk ID: 17
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 17
+[CMD] CHUNK
+Chunk ID: 18
+Received CRC: 76AB77CC, Calculated CRC: 76AB77CC
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 18
+[CMD] CHUNK
+Chunk ID: 19
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 19
+[CMD] CHUNK
+Chunk ID: 20
+Received CRC: 374DD7CB, Calculated CRC: 374DD7CB
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 20
+[CMD] CHUNK
+Chunk ID: 21
+Received CRC: 96AC2125, Calculated CRC: 96AC2125
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 21
+[CMD] CHUNK
+Chunk ID: 22
+Received CRC: D84A039B, Calculated CRC: D84A039B
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 22
+[CMD] CHUNK
+Chunk ID: 23
+Received CRC: DD6C2E24, Calculated CRC: DD6C2E24
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 23
+[CMD] CHUNK
+Chunk ID: 24
+Received CRC: 3ED40D9B, Calculated CRC: 3ED40D9B
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 24
+[CMD] CHUNK
+Chunk ID: 25
+Received CRC: F6816F80, Calculated CRC: F6816F80
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 25
+[CMD] CHUNK
+Chunk ID: 26
+Received CRC: E3FFC0D2, Calculated CRC: E3FFC0D2
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 26
+[CMD] CHUNK
+Chunk ID: 27
+Received CRC: C369BE04, Calculated CRC: C369BE04
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 27
+[CMD] CHUNK
+Chunk ID: 28
+Received CRC: 2A1AA3C3, Calculated CRC: 2A1AA3C3
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 28
+[CMD] CHUNK
+Chunk ID: 29
+Received CRC: 1AAE5AF0, Calculated CRC: 1AAE5AF0
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 29
+[CMD] CHUNK
+Chunk ID: 30
+Received CRC: C612E21D, Calculated CRC: C612E21D
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 30
+[CMD] CHUNK
+Chunk ID: 31
+Received CRC: E545E182, Calculated CRC: E545E182
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 31
+[CMD] CHUNK
+Chunk ID: 32
+Received CRC: 4395F727, Calculated CRC: 4395F727
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 32
+[CMD] CHUNK
+Chunk ID: 33
+Received CRC: 1C87B68F, Calculated CRC: 1C87B68F
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 33
+[CMD] CHUNK
+Chunk ID: 34
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 34
+[CMD] CHUNK
+Chunk ID: 35
+Received CRC: 43EA427E, Calculated CRC: 43EA427E
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 35
+[CMD] CHUNK
+Chunk ID: 36
+Received CRC: D354CC17, Calculated CRC: D354CC17
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 36
+[CMD] CHUNK
+Chunk ID: 37
+Received CRC: 44CB284A, Calculated CRC: 44CB284A
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 37
+[CMD] CHUNK
+Chunk ID: 38
+Received CRC: 045130F7, Calculated CRC: 045130F7
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 38
+[CMD] CHUNK
+Chunk ID: 39
+Received CRC: 457D721A, Calculated CRC: 457D721A
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 39
+[CMD] CHUNK
+Chunk ID: 40
+Received CRC: F93CD5D6, Calculated CRC: F93CD5D6
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 40
+[CMD] CHUNK
+Chunk ID: 41
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 41
+[CMD] CHUNK
+Chunk ID: 42
+Received CRC: 5DA86BDA, Calculated CRC: 5DA86BDA
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 42
+[CMD] CHUNK
+Chunk ID: 43
+Received CRC: 3E6A091B, Calculated CRC: 3E6A091B
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 43
+[CMD] CHUNK
+Chunk ID: 44
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 44
+[CMD] CHUNK
+Chunk ID: 45
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 45
+[CMD] CHUNK
+Chunk ID: 46
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 46
+[CMD] CHUNK
+Chunk ID: 47
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 47
+[CMD] CHUNK
+Chunk ID: 48
+Received CRC: 7E01F09A, Calculated CRC: 7E01F09A
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 48
+[CMD] CHUNK
+Chunk ID: 49
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 49
+[CMD] CHUNK
+Chunk ID: 50
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 50
+[CMD] CHUNK
+Chunk ID: 51
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 51
+[CMD] CHUNK
+Chunk ID: 52
+Received CRC: 79064309, Calculated CRC: 79064309
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 52
+[CMD] CHUNK
+Chunk ID: 53
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 53
+[CMD] CHUNK
+Chunk ID: 54
+Received CRC: D35979E7, Calculated CRC: D35979E7
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 54
+[CMD] CHUNK
+Chunk ID: 55
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 55
+[CMD] CHUNK
+Chunk ID: 56
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 56
+[CMD] CHUNK
+Chunk ID: 57
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 57
+[CMD] CHUNK
+Chunk ID: 58
+Received CRC: EA16DBB9, Calculated CRC: EA16DBB9
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 58
+[CMD] CHUNK
+Chunk ID: 59
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 59
+[CMD] CHUNK
+Chunk ID: 60
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 60
+[CMD] CHUNK
+Chunk ID: 61
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 61
+[CMD] CHUNK
+Chunk ID: 62
+Received CRC: 6A73B41E, Calculated CRC: 6A73B41E
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 62
+[CMD] CHUNK
+Chunk ID: 63
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 63
+[CMD] CHUNK
+Chunk ID: 64
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 64
+[CMD] CHUNK
+Chunk ID: 65
+Received CRC: B99E2956, Calculated CRC: B99E2956
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 65
+[CMD] CHUNK
+Chunk ID: 66
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 66
+[CMD] CHUNK
+Chunk ID: 67
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 67
+[CMD] CHUNK
+Chunk ID: 68
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 68
+[CMD] CHUNK
+Chunk ID: 69
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 69
+[CMD] CHUNK
+Chunk ID: 70
+Received CRC: 393817CB, Calculated CRC: 393817CB
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 70
+[CMD] CHUNK
+Chunk ID: 71
+Received CRC: 58A0173E, Calculated CRC: 58A0173E
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 71
+[CMD] CHUNK
+Chunk ID: 72
+Received CRC: 8D4D8830, Calculated CRC: 8D4D8830
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 72
+[CMD] CHUNK
+Chunk ID: 73
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 73
+[CMD] CHUNK
+Chunk ID: 74
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 74
+[CMD] CHUNK
+Chunk ID: 75
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 75
+[CMD] CHUNK
+Chunk ID: 76
+Received CRC: 49DD24E3, Calculated CRC: 49DD24E3
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[v] Finish chunk: 76
+[CMD] CHUNK
+Chunk ID: 77
+Received CRC: 03CE03A1, Calculated CRC: 03CE03A1
+Timestamp: 2025-08-03 16:07:44
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_01/dls_data_20250803_160744.bin (append)
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-01 16:52:01,047 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-01 19:03:01,130 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-02 15:37:01,311 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Listening on /dev/ttyAMA3 @ 115200
+Sending RUN EXPERIMENT command...
+Experiment command sent successfully!
+[CMD] Run Experiment ACK!
+[CMD] CHUNK
+Chunk ID: 0
+Received CRC: 08B2E68B, Calculated CRC: 08B2E68B
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 0
+2025-08-02 15:37:17,342 [INFO] [CMD] CHUNK
+2025-08-02 15:37:17,343 [INFO] [v] New DLS Data Chunk accepted
+[CMD] CHUNK
+Chunk ID: 1
+Received CRC: F91F3EE9, Calculated CRC: F91F3EE9
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 1
+[CMD] CHUNK
+Chunk ID: 2
+Received CRC: EC4A512C, Calculated CRC: EC4A512C
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 2
+[CMD] CHUNK
+Chunk ID: 3
+Received CRC: 55894EF3, Calculated CRC: 55894EF3
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 3
+[CMD] CHUNK
+Chunk ID: 4
+Received CRC: BAA122EE, Calculated CRC: BAA122EE
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 4
+[CMD] CHUNK
+Chunk ID: 5
+Received CRC: 30250E2F, Calculated CRC: 30250E2F
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 5
+[CMD] CHUNK
+Chunk ID: 6
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 6
+[CMD] CHUNK
+Chunk ID: 7
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 7
+[CMD] CHUNK
+Chunk ID: 8
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 8
+[CMD] CHUNK
+Chunk ID: 9
+Received CRC: 831A3AD0, Calculated CRC: 831A3AD0
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 9
+[CMD] CHUNK
+Chunk ID: 10
+Received CRC: 6AECEE00, Calculated CRC: 6AECEE00
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 10
+[CMD] CHUNK
+Chunk ID: 11
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 11
+[CMD] CHUNK
+Chunk ID: 12
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 12
+[CMD] CHUNK
+Chunk ID: 13
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 13
+[CMD] CHUNK
+Chunk ID: 14
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 14
+[CMD] CHUNK
+Chunk ID: 15
+Received CRC: CD726962, Calculated CRC: CD726962
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 15
+[CMD] CHUNK
+Chunk ID: 16
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 16
+[CMD] CHUNK
+Chunk ID: 17
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 17
+[CMD] CHUNK
+Chunk ID: 18
+Received CRC: A10FAB1C, Calculated CRC: A10FAB1C
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 18
+[CMD] CHUNK
+Chunk ID: 19
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 19
+[CMD] CHUNK
+Chunk ID: 20
+Received CRC: 15D19FE2, Calculated CRC: 15D19FE2
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 20
+[CMD] CHUNK
+Chunk ID: 21
+Received CRC: F9536A5D, Calculated CRC: F9536A5D
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 21
+[CMD] CHUNK
+Chunk ID: 22
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 22
+[CMD] CHUNK
+Chunk ID: 23
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 23
+[CMD] CHUNK
+Chunk ID: 24
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 24
+[CMD] CHUNK
+Chunk ID: 25
+Received CRC: F51235E7, Calculated CRC: F51235E7
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 25
+[CMD] CHUNK
+Chunk ID: 26
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 26
+[CMD] CHUNK
+Chunk ID: 27
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 27
+[CMD] CHUNK
+Chunk ID: 28
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 28
+[CMD] CHUNK
+Chunk ID: 29
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 29
+[CMD] CHUNK
+Chunk ID: 30
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 30
+[CMD] CHUNK
+Chunk ID: 31
+Received CRC: 30B0DC17, Calculated CRC: 30B0DC17
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 31
+[CMD] CHUNK
+Chunk ID: 32
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 32
+[CMD] CHUNK
+Chunk ID: 33
+Received CRC: 86FD67B7, Calculated CRC: 86FD67B7
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 33
+[CMD] CHUNK
+Chunk ID: 34
+Received CRC: E0CE4219, Calculated CRC: E0CE4219
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 34
+[CMD] CHUNK
+Chunk ID: 35
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 35
+[CMD] CHUNK
+Chunk ID: 36
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 36
+[CMD] CHUNK
+Chunk ID: 37
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 37
+[CMD] CHUNK
+Chunk ID: 38
+Received CRC: 7912D503, Calculated CRC: 7912D503
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 38
+[CMD] CHUNK
+Chunk ID: 39
+Received CRC: 7A167E28, Calculated CRC: 7A167E28
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 39
+[CMD] CHUNK
+Chunk ID: 40
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 40
+[CMD] CHUNK
+Chunk ID: 41
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 41
+[CMD] CHUNK
+Chunk ID: 42
+Received CRC: AE11614F, Calculated CRC: AE11614F
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 42
+[CMD] CHUNK
+Chunk ID: 43
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 43
+[CMD] CHUNK
+Chunk ID: 44
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 44
+[CMD] CHUNK
+Chunk ID: 45
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 45
+[CMD] CHUNK
+Chunk ID: 46
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 46
+[CMD] CHUNK
+Chunk ID: 47
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 47
+[CMD] CHUNK
+Chunk ID: 48
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 48
+[CMD] CHUNK
+Chunk ID: 49
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 49
+[CMD] CHUNK
+Chunk ID: 50
+Received CRC: A5290BD8, Calculated CRC: A5290BD8
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 50
+[CMD] CHUNK
+Chunk ID: 51
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 51
+[CMD] CHUNK
+Chunk ID: 52
+Received CRC: 925C86B4, Calculated CRC: 925C86B4
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 52
+[CMD] CHUNK
+Chunk ID: 53
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 53
+[CMD] CHUNK
+Chunk ID: 54
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 54
+[CMD] CHUNK
+Chunk ID: 55
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 55
+[CMD] CHUNK
+Chunk ID: 56
+Received CRC: 3247EDCB, Calculated CRC: 3247EDCB
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 56
+[CMD] CHUNK
+Chunk ID: 57
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 57
+[CMD] CHUNK
+Chunk ID: 58
+Received CRC: EEA5064B, Calculated CRC: EEA5064B
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 58
+[CMD] CHUNK
+Chunk ID: 59
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 59
+[CMD] CHUNK
+Chunk ID: 60
+Received CRC: CA685821, Calculated CRC: CA685821
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 60
+[CMD] CHUNK
+Chunk ID: 61
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 61
+[CMD] CHUNK
+Chunk ID: 62
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 62
+[CMD] CHUNK
+Chunk ID: 63
+Received CRC: FC64D763, Calculated CRC: FC64D763
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 63
+[CMD] CHUNK
+Chunk ID: 64
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 64
+[CMD] CHUNK
+Chunk ID: 65
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 65
+[CMD] CHUNK
+Chunk ID: 66
+Received CRC: 290C6CF3, Calculated CRC: 290C6CF3
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 66
+[CMD] CHUNK
+Chunk ID: 67
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 67
+[CMD] CHUNK
+Chunk ID: 68
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 68
+[CMD] CHUNK
+Chunk ID: 69
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 69
+[CMD] CHUNK
+Chunk ID: 70
+Received CRC: BB1D20FB, Calculated CRC: BB1D20FB
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 70
+[CMD] CHUNK
+Chunk ID: 71
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 71
+[CMD] CHUNK
+Chunk ID: 72
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 72
+[CMD] CHUNK
+Chunk ID: 73
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 73
+[CMD] CHUNK
+Chunk ID: 74
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 74
+[CMD] CHUNK
+Chunk ID: 75
+Received CRC: 8CFC135D, Calculated CRC: 8CFC135D
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 75
+[CMD] CHUNK
+Chunk ID: 76
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 76
+[CMD] CHUNK
+Chunk ID: 77
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 77
+[CMD] CHUNK
+Chunk ID: 78
+Received CRC: FB07B335, Calculated CRC: FB07B335
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 78
+[CMD] CHUNK
+Chunk ID: 79
+Received CRC: 0CEB30D3, Calculated CRC: 0CEB30D3
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 79
+[CMD] CHUNK
+Chunk ID: 80
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 80
+[CMD] CHUNK
+Chunk ID: 81
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 81
+[CMD] CHUNK
+Chunk ID: 82
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 82
+[CMD] CHUNK
+Chunk ID: 83
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 83
+[CMD] CHUNK
+Chunk ID: 84
+Received CRC: 069A563C, Calculated CRC: 069A563C
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 84
+[CMD] CHUNK
+Chunk ID: 85
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 85
+[CMD] CHUNK
+Chunk ID: 86
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 86
+[CMD] CHUNK
+Chunk ID: 87
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 87
+[CMD] CHUNK
+Chunk ID: 88
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 88
+[CMD] CHUNK
+Chunk ID: 89
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 89
+[CMD] CHUNK
+Chunk ID: 90
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 90
+[CMD] CHUNK
+Chunk ID: 91
+Received CRC: 5099143C, Calculated CRC: 5099143C
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 91
+[CMD] CHUNK
+Chunk ID: 92
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 92
+[CMD] CHUNK
+Chunk ID: 93
+Received CRC: 940E21DB, Calculated CRC: 940E21DB
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 93
+[CMD] CHUNK
+Chunk ID: 94
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 94
+[CMD] CHUNK
+Chunk ID: 95
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 95
+[CMD] CHUNK
+Chunk ID: 96
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 96
+[CMD] CHUNK
+Chunk ID: 97
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 97
+[CMD] CHUNK
+Chunk ID: 98
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 98
+[CMD] CHUNK
+Chunk ID: 99
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 99
+[CMD] CHUNK
+Chunk ID: 100
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 100
+[CMD] CHUNK
+Chunk ID: 101
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 101
+[CMD] CHUNK
+Chunk ID: 102
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 102
+[CMD] CHUNK
+Chunk ID: 103
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 103
+[CMD] CHUNK
+Chunk ID: 104
+Received CRC: 69BF646D, Calculated CRC: 69BF646D
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 104
+[CMD] CHUNK
+Chunk ID: 105
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 105
+[CMD] CHUNK
+Chunk ID: 106
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 106
+[CMD] CHUNK
+Chunk ID: 107
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 107
+[CMD] CHUNK
+Chunk ID: 108
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 108
+[CMD] CHUNK
+Chunk ID: 109
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 109
+[CMD] CHUNK
+Chunk ID: 110
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 110
+[CMD] CHUNK
+Chunk ID: 111
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 111
+[CMD] CHUNK
+Chunk ID: 112
+Received CRC: E05D7201, Calculated CRC: E05D7201
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 112
+[CMD] CHUNK
+Chunk ID: 113
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 113
+[CMD] CHUNK
+Chunk ID: 114
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 114
+[CMD] CHUNK
+Chunk ID: 115
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 115
+[CMD] CHUNK
+Chunk ID: 116
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 116
+[CMD] CHUNK
+Chunk ID: 117
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 117
+[CMD] CHUNK
+Chunk ID: 118
+Received CRC: 66483828, Calculated CRC: 66483828
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 118
+[CMD] CHUNK
+Chunk ID: 119
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 119
+[CMD] CHUNK
+Chunk ID: 120
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 120
+[CMD] CHUNK
+Chunk ID: 121
+Received CRC: 0A2592D6, Calculated CRC: 0A2592D6
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 121
+[CMD] CHUNK
+Chunk ID: 122
+Received CRC: 4C4CE881, Calculated CRC: 4C4CE881
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[+] Saved to /home/spec_cam/Data/2025_08_02/dls_data_20250804_235725.bin (append)
+[v] Finish chunk: 122
+[CMD] CURRENT
+2025-08-02 15:38:40,181 [INFO] [CMD] CURRENT
+Received CRC: ACBDD298, Calculated CRC: ACBDD298
+Timestamp: 2025-08-04 23:57:25
+[OK]
+[.] Current Data got!
+2025-08-02 15:38:40,293 [INFO] [.] Current Data got!
+2025-08-02 15:38:40,293 [INFO] [+] Saved to /home/spec_cam/Data/2025_08_02/current_data_20250804_235725.bin
+[+] Saved to /home/spec_cam/Data/2025_08_02/current_data_20250804_235725.bin (write)
+[CMD] LOG
+2025-08-02 15:38:43,631 [INFO] [CMD] LOG
+[.] -> Got: exp_log!
+2025-08-02 15:38:43,660 [INFO] [+] Saved to /home/spec_cam/Data/2025_08_02/exp_log_20250805_000944.bin
+[+] Saved to /home/spec_cam/Data/2025_08_02/exp_log_20250805_000944.bin (write)
+2025-08-02 15:38:43,661 [INFO] [.] -> Got: exp_log!
+[CMD] LOG
+2025-08-02 15:40:27,920 [INFO] [CMD] LOG
+[.] -> Got: exp_log!
+2025-08-02 15:40:27,949 [INFO] [+] Saved to /home/spec_cam/Data/2025_08_02/exp_log_20250805_004430.bin
+[+] Saved to /home/spec_cam/Data/2025_08_02/exp_log_20250805_004430.bin (write)
+2025-08-02 15:40:27,949 [INFO] [.] -> Got: exp_log!
+                                                                                                                                                                                                                                                                                                                   [*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-02 15:49:47,501 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-04 10:35:34,208 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-04 11:31:04,587 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+Exception in thread Thread-1 (serial_rx_thread):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/spec_cam/.app_src/03_Source/handler/handler.py", line 513, in serial_rx_thread
+    modfsp.process()
+  File "/home/spec_cam/.app_src/03_Source/handler/modfsp.py", line 331, in process
+    has_data, byte = self.read_byte_callback()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spec_cam/.app_src/03_Source/handler/handler.py", line 227, in read_byte_callback
+    return True, byte[0]
+                 ~~~~^^^
+IndexError: index out of range
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-04 20:00:34,757 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
+[*] Checking for existing handler.py processes...
+[*] No other handler processes found
+[OK] Serial port /dev/ttyAMA3 opened @ 115200
+2025-08-05 17:04:19,671 [INFO] [OK] Serial port /dev/ttyAMA3 opened @ 115200
