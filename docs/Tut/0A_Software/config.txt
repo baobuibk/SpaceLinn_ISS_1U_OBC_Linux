@@ -1,0 +1,72 @@
+# For more options and information see
+# http://rptl.io/configtxt
+# Some settings may impact device functionality. See link above for details
+
+# Uncomment some or all of these to enable the optional hardware interfaces
+dtparam=i2c_arm=on
+#dtparam=i2s=on
+dtparam=spi=on
+
+# Enable audio (loads snd_bcm2835)
+# dtparam=audio=on
+
+# Additional overlays and parameters are documented
+# /boot/firmware/overlays/README
+
+# Automatically load overlays for detected cameras
+# camera_auto_detect=1
+
+# Automatically load overlays for detected DSI displays
+# display_auto_detect=1
+
+# Automatically load initramfs files, if found
+auto_initramfs=1
+
+# Enable DRM VC4 V3D driver
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+
+# Don't have the firmware create an initial video= setting in cmdline.txt.
+# Use the kernel's default instead.
+disable_fw_kms_setup=1
+
+# Run in 64-bit mode
+arm_64bit=1
+
+# Disable compensation for displays with overscan
+disable_overscan=1
+
+# Run as fast as firmware / board allows
+arm_boost=1
+
+[cm4]
+# Enable host mode on the 2711 built-in XHCI USB controller.
+# This line should be removed if the legacy DWC2 controller is required
+# (e.g. for USB device mode) or if USB support is not required.
+# otg_mode=1
+
+dtparam=i2c0=on
+dtoverlay=ar2020,cam0
+dtoverlay=i2c3
+dtoverlay=i2c4,pins_6_7,baudrate=400000
+
+#enable CAN BUS
+dtoverlay=spi1-1cs,cs0_pin=18,cs0_polarity=0
+gpio=18,pu
+#dtoverlay=mcp2515-can1-0,oscillator=8000000,interrupt=24
+#dtoverlay=spi-bcm2835-overlay
+
+[cm5]
+# dtoverlay=dwc2,dr_mode=host
+
+[all]
+enable_uart=1
+dtoverlay=uart4
+dtoverlay=uart3
+
+max_usb_current=1
+
+dtoverlay=dwc2
+#,dr_mode=peripheral
+
+#modules-load=dwc2,g_ether g_ether.dev_addr=12:22:33:44:55:66 g_ether.host_addr=16:22:33:44:55:66
